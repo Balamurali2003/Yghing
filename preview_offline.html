@@ -1,0 +1,2815 @@
+<!doctype html>
+<html lang="en" data-theme="emerald">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Y.G Asafoetida — 94+ Years of Legacy | Artisanal Hing, Sathu Maavu & Sambrani Since 1932</title>
+  <meta name="description" content="Celebrating 94+ years of legacy. Compounded artisanal asafoetida powder, pure gold hing cake, gluten-free hing, traditional health mix, and pure temple benzoin sambrani from Tirunelveli since 1932." />
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary: #059669;
+      --primary-hover: #047857;
+      --primary-light: #ecfdf5;
+      --background: #f1f8f4;
+      --surface: #ffffff;
+      --foreground: #1c1917;
+      --muted: #57534e;
+      --border: #e7e5e4;
+      --accent: #d97706;
+      --radius: 12px;
+      --shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.06);
+    }
+
+    [data-theme="saffron"] {
+      --primary: #b45309;
+      --primary-hover: #92400e;
+      --primary-light: #fffbeb;
+      --background: #faf6f0;
+      --surface: #ffffff;
+      --foreground: #1c1917;
+      --muted: #57534e;
+      --border: #e7e5e4;
+    }
+
+    [data-theme="indigo"] {
+      --primary: #3730a3;
+      --primary-hover: #312e81;
+      --primary-light: #eef2ff;
+      --background: #f1f5fb;
+      --surface: #ffffff;
+      --foreground: #0f172a;
+      --muted: #475569;
+      --border: #e2e8f0;
+    }
+
+    [data-theme="plum"] {
+      --primary: #86198f;
+      --primary-hover: #701a75;
+      --primary-light: #fdf4ff;
+      --background: #f8f2fb;
+      --surface: #ffffff;
+      --foreground: #1e1b4b;
+      --muted: #581c87;
+      --border: #f3e8ff;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--background);
+      color: var(--foreground);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    h1, h2, h3, h4, .font-serif {
+      font-family: 'Fraunces', Georgia, serif;
+    }
+
+    /* Top Announcement */
+    .announcement {
+      background: var(--foreground);
+      color: #ffffff;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 8px 16px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Header */
+    header {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 12px 24px;
+    }
+    .header-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+    .brand img {
+      height: 44px;
+      width: auto;
+      object-fit: contain;
+    }
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .brand-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      letter-spacing: -0.02em;
+    }
+    .brand-sub {
+      font-size: 0.72rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--foreground);
+      font-size: 0.92rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--primary); }
+
+    .theme-selector {
+      display: flex;
+      align-items: center;
+      background: var(--background);
+      border: 1px solid var(--border);
+      border-radius: 9999px;
+      padding: 3px;
+      gap: 4px;
+    }
+    .theme-btn {
+      border: none;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: inline-block;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .theme-btn:hover { transform: scale(1.15); }
+    .theme-btn.active { box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--primary); }
+    .theme-emerald { background: #059669; }
+    .theme-saffron { background: #b45309; }
+    .theme-indigo  { background: #3730a3; }
+    .theme-plum    { background: #86198f; }
+
+    .cart-btn {
+      background: var(--primary);
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 9999px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: background-color 0.2s;
+    }
+    .cart-btn:hover { background: var(--primary-hover); }
+
+    /* Hero Section */
+    .hero {
+      padding: 60px 24px;
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 48px;
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      line-height: 1.15;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: var(--foreground);
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 9999px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background-color 0.2s, transform 0.1s;
+    }
+    .btn-primary:hover { background: var(--primary-hover); transform: translateY(-1px); }
+    .btn-secondary {
+      background: var(--surface);
+      color: var(--foreground);
+      border: 1px solid var(--border);
+      padding: 12px 28px;
+      border-radius: 9999px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: border-color 0.2s;
+    }
+    .btn-secondary:hover { border-color: var(--primary); color: var(--primary); }
+
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.84rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+    .hero-badge-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 500;
+    }
+
+    .hero-media {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px -15px rgba(0,0,0,0.15);
+      background: #000;
+      aspect-ratio: 4/3;
+    }
+    .hero-media video, .hero-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Section Headers */
+    .section-header {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 40px;
+    }
+    .section-eyebrow {
+      color: var(--primary);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 8px;
+    }
+    .section-header h2 {
+      font-size: 2.2rem;
+      margin-bottom: 12px;
+    }
+    .section-header p {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    /* Products Section */
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    .catalog-divider {
+      grid-column: 1 / -1;
+      background: linear-gradient(135deg, var(--primary-light), var(--surface));
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--primary);
+      padding: 16px 24px;
+      border-radius: 12px;
+      margin: 20px 0 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .catalog-divider h3 {
+      font-size: 1.3rem;
+      color: var(--foreground);
+    }
+    .catalog-divider span {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 36px;
+    }
+    .filter-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 28px;
+    }
+    .product-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px -6px rgba(0, 0, 0, 0.08);
+      border-color: var(--primary);
+    }
+    .product-image-wrap {
+      aspect-ratio: 1;
+      background: var(--background);
+      position: relative;
+      overflow: hidden;
+    }
+    .product-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+    .product-card:hover .product-image-wrap img {
+      transform: scale(1.04);
+    }
+    .product-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: var(--primary);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      letter-spacing: 0.05em;
+    }
+    .product-badge.gold {
+      background: #d97706;
+    }
+    .product-badge.vismaya {
+      background: #7c2d12;
+    }
+    .product-info {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .product-title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: var(--foreground);
+    }
+    .product-desc {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .product-variants {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+    .variant-chip {
+      border: 1px solid var(--border);
+      background: var(--background);
+      font-size: 0.76rem;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .variant-chip.active {
+      border-color: var(--primary);
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+    .product-price-row {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+    .price {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--foreground);
+    }
+    .mrp {
+      font-size: 0.82rem;
+      color: var(--muted);
+      text-decoration: line-through;
+      margin-left: 6px;
+    }
+    .add-btn {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    .add-btn:hover { background: var(--primary-hover); }
+
+    /* ==========================================================================
+       3D ANIMATED DELIVERY EVOLUTION TRACK ON ARROWS (OUR STORY)
+       ========================================================================== */
+    .journey-section {
+      background: linear-gradient(180deg, var(--surface) 0%, var(--background) 100%);
+      padding: 70px 24px;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+    .journey-track-wrapper {
+      max-width: 1240px;
+      margin: 0 auto;
+      position: relative;
+    }
+    
+    /* 3D Stage Carousel / Path */
+    .journey-stages-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .journey-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.06);
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .journey-card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 20px 35px -10px rgba(5, 150, 105, 0.2);
+      border-color: var(--primary);
+    }
+
+    .journey-card-img-wrap {
+      aspect-ratio: 16/11;
+      width: 100%;
+      background: #000;
+      position: relative;
+      overflow: hidden;
+    }
+    .journey-card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .journey-card:hover .journey-card-img-wrap img {
+      transform: scale(1.08);
+    }
+
+    .journey-step-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      color: #fff;
+      font-size: 0.74rem;
+      font-weight: 700;
+      padding: 5px 12px;
+      border-radius: 9999px;
+      letter-spacing: 0.05em;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .journey-card-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .journey-card-era {
+      font-size: 0.76rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--primary);
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+    .journey-card-title {
+      font-size: 1.18rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--foreground);
+    }
+    .journey-card-desc {
+      font-size: 0.86rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* 3D Motion Arrow Path Animation Strip */
+    .arrow-track-banner {
+      margin: 40px auto 10px;
+      max-width: 1240px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: inset 0 2px 8px rgba(0,0,0,0.03);
+    }
+    .arrow-track-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .arrow-track-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--foreground);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .motion-highway {
+      width: 100%;
+      height: 120px;
+      background: linear-gradient(90deg, #1e293b 0%, #0f172a 100%);
+      border-radius: 16px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.4);
+    }
+    
+    /* Glowing connecting arrow track */
+    .highway-lane {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: repeating-linear-gradient(90deg, #10b981 0, #10b981 20px, transparent 20px, transparent 40px);
+      animation: laneFlow 1.2s linear infinite;
+      box-shadow: 0 0 12px #10b981;
+    }
+
+    @keyframes laneFlow {
+      from { transform: translateX(0); }
+      to { transform: translateX(-40px); }
+    }
+
+    /* The Moving 3D Object Group traveling across the arrow */
+    .moving-conveyance-pod {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      animation: journeyTraverse 24s linear infinite;
+      white-space: nowrap;
+    }
+    .moving-conveyance-pod:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes journeyTraverse {
+      0% { transform: translate(100%, -50%); }
+      100% { transform: translate(-100%, -50%); }
+    }
+
+    .pod-vehicle {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 8px 18px 8px 8px;
+      border-radius: 9999px;
+      color: #ffffff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s;
+    }
+    .pod-vehicle:hover {
+      transform: scale(1.1);
+      background: rgba(255, 255, 255, 0.25);
+    }
+    .pod-thumb {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #10b981;
+      box-shadow: 0 0 10px rgba(16, 185, 129, 0.6);
+    }
+    .pod-info {
+      display: flex;
+      flex-direction: column;
+    }
+    .pod-title {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .pod-sub {
+      font-size: 0.72rem;
+      color: #a7f3d0;
+    }
+
+    .highway-arrow {
+      color: #10b981;
+      font-size: 1.6rem;
+      font-weight: 900;
+      display: inline-block;
+      margin: 0 8px;
+      text-shadow: 0 0 10px #10b981;
+    }
+
+    /* Story Timeline Section */
+    .story-section {
+      background: var(--surface);
+      padding: 80px 24px;
+    }
+    .timeline {
+      max-width: 900px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 20px;
+      width: 2px;
+      background: var(--border);
+    }
+    .timeline-item {
+      position: relative;
+      padding-left: 60px;
+      margin-bottom: 40px;
+    }
+    .timeline-dot {
+      position: absolute;
+      left: 12px;
+      top: 4px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--primary);
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 2px var(--primary);
+    }
+    .timeline-year {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+    .timeline-title {
+      font-size: 1.35rem;
+      margin-bottom: 8px;
+    }
+    .timeline-lead {
+      font-size: 0.95rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      padding: 80px 24px;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+    .contact-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 36px;
+      box-shadow: var(--shadow);
+    }
+    .contact-card h3 {
+      font-size: 1.6rem;
+      margin-bottom: 16px;
+      color: var(--primary);
+    }
+    .contact-info-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .contact-info-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .contact-label {
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+    .contact-val {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--foreground);
+    }
+    .contact-val a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .form-input, .form-textarea {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--background);
+      font-family: inherit;
+      font-size: 0.95rem;
+    }
+    .form-textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    /* Product Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(6px);
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-backdrop.active {
+      display: flex;
+    }
+    .modal-box {
+      background: var(--surface);
+      border-radius: 20px;
+      max-width: 680px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .modal-close {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      background: rgba(0,0,0,0.1);
+      border: none;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+    }
+    .modal-img-wrap {
+      background: var(--background);
+      aspect-ratio: 1;
+    }
+    .modal-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .modal-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Footer */
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      padding: 60px 24px 30px;
+      font-size: 0.88rem;
+    }
+    .footer-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.5fr;
+      gap: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #1f2937;
+    }
+    .footer-col h4 {
+      color: #ffffff;
+      font-size: 1rem;
+      margin-bottom: 16px;
+    }
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .footer-col a {
+      color: #9ca3af;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-col a:hover { color: #ffffff; }
+    .footer-bottom {
+      max-width: 1280px;
+      margin: 30px auto 0;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #6b7280;
+    }
+
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+      .modal-box { grid-template-columns: 1fr; }
+    }
+  
+    /* =========================================================================
+       AUTHENTIC 10-CHAPTER STORY TIMELINE & 9 3D ARROW VIDEO SCENARIOS
+       ========================================================================= */
+    .story-section {
+      background: var(--surface);
+      padding: 70px 20px 100px;
+      border-top: 1px solid var(--border);
+      position: relative;
+    }
+
+    .story-cinema-banner {
+      max-width: 1100px;
+      margin: 0 auto 50px;
+      background: linear-gradient(135deg, #064e3b 0%, #065f46 50%, #0f172a 100%);
+      border: 2px solid #10b981;
+      border-radius: 24px;
+      padding: 30px;
+      color: #ffffff;
+      box-shadow: 0 20px 45px -10px rgba(5, 150, 105, 0.4);
+      position: relative;
+      overflow: hidden;
+    }
+    .story-cinema-banner::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.25) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .cinema-banner-content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .cinema-banner-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+    .cinema-banner-desc {
+      font-size: 0.95rem;
+      color: #a7f3d0;
+      max-width: 600px;
+      line-height: 1.5;
+    }
+    .cinema-banner-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .btn-play-movie {
+      background: #d97706;
+      color: #ffffff;
+      border: none;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 14px 28px;
+      border-radius: 9999px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 10px 25px rgba(217, 119, 6, 0.5);
+      transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+    }
+    .btn-play-movie:hover {
+      background: #b45309;
+      transform: translateY(-2px) scale(1.04);
+      box-shadow: 0 14px 30px rgba(217, 119, 6, 0.65);
+    }
+    .cinema-quick-pills {
+      margin-top: 24px;
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+      scrollbar-width: thin;
+    }
+    .quick-pill-item {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 9999px;
+      padding: 6px 14px 6px 8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.2s, transform 0.2s, border-color 0.2s;
+    }
+    .quick-pill-item:hover {
+      background: rgba(255, 255, 255, 0.22);
+      border-color: #10b981;
+      transform: translateY(-2px);
+    }
+    .quick-pill-thumb {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1.5px solid #10b981;
+    }
+    .quick-pill-text {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    /* 10 Chapters Timeline Layout */
+    .story-chapters-flow {
+      max-width: 1080px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .chapter-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      align-items: center;
+      margin-bottom: 0;
+    }
+    .chapter-row.left-oriented .chapter-col-card {
+      grid-column: 1;
+    }
+    .chapter-row.left-oriented .chapter-col-empty {
+      grid-column: 2;
+    }
+    .chapter-row.right-oriented .chapter-col-empty {
+      grid-column: 1;
+    }
+    .chapter-row.right-oriented .chapter-col-card {
+      grid-column: 2;
+    }
+
+    .chapter-card-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px -5px rgba(0,0,0,0.06);
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s;
+    }
+    .chapter-card-item:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px -10px rgba(5, 150, 105, 0.25);
+      border-color: var(--primary);
+    }
+
+    .chapter-card-hero {
+      position: relative;
+      height: 240px;
+      width: 100%;
+      background: #f3f4f6;
+      overflow: hidden;
+    }
+    .chapter-card-hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .chapter-card-item:hover .chapter-card-hero img {
+      transform: scale(1.06);
+    }
+    .chapter-badge-year {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #fff;
+      font-family: 'Fraunces', serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+      border: 2px solid #fff;
+      z-index: 2;
+    }
+    .chapter-badge-cat {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(6px);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      z-index: 2;
+    }
+
+    .chapter-card-content {
+      padding: 24px;
+    }
+    .chapter-num-tag {
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: var(--primary);
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+    }
+    .chapter-card-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--foreground);
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    .chapter-card-lead {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .chapter-card-quote {
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px dashed var(--border);
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-size: 0.86rem;
+      color: #b45309;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* 9 CONNECTING ARROWS WITH 3D MOVING VIDEO SCENARIOS */
+    .story-arrow-block {
+      width: 100%;
+      margin: 16px 0;
+      position: relative;
+      min-height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .story-arrow-svg-wrap {
+      width: 100%;
+      max-width: 820px;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .story-arrow-svg-wrap svg {
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+
+    /* Moving 3D Video Scenario Pod on Arrow */
+    .moving-3d-arrow-video {
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      transform: translateY(-50%);
+      background: #ffffff;
+      border: 2px solid #059669;
+      border-radius: 9999px;
+      padding: 8px 24px 8px 8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: 0 10px 30px rgba(5, 150, 105, 0.25);
+      cursor: pointer;
+      z-index: 30;
+      animation: arrowGlideLeft 10s ease-in-out infinite;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .moving-3d-arrow-video.right-path {
+      animation: arrowGlideRight 10s ease-in-out infinite;
+    }
+    .moving-3d-arrow-video:hover {
+      animation-play-state: paused !important;
+      transform: translateY(-50%) scale(1.1) !important;
+      border-color: #d97706;
+      box-shadow: 0 18px 40px rgba(217, 119, 6, 0.45);
+    }
+
+    @keyframes arrowGlideLeft {
+      0% { left: 10%; transform: translateY(-50%) scale(0.96); }
+      50% { left: 50%; transform: translateY(-50%) scale(1.04); }
+      100% { left: 10%; transform: translateY(-50%) scale(0.96); }
+    }
+    @keyframes arrowGlideRight {
+      0% { left: 55%; transform: translateY(-50%) scale(0.96); }
+      50% { left: 15%; transform: translateY(-50%) scale(1.04); }
+      100% { left: 55%; transform: translateY(-50%) scale(0.96); }
+    }
+
+    .moving-3d-thumb-box {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+      border: 2.5px solid #059669;
+      box-shadow: 0 4px 12px rgba(5, 150, 105, 0.35);
+      flex-shrink: 0;
+    }
+    .moving-3d-thumb-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .moving-3d-video-badge {
+      position: absolute;
+      bottom: 2px;
+      right: 2px;
+      background: #d97706;
+      color: #fff;
+      font-size: 0.6rem;
+      font-weight: 800;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1.5px solid #fff;
+      box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    }
+    .moving-3d-details {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+    .moving-3d-tag {
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: #059669;
+      letter-spacing: 0.08em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .moving-3d-tag .live-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #10b981;
+      animation: pulseDot 1.4s infinite;
+    }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.7); }
+    }
+    .moving-3d-title {
+      font-size: 1.02rem;
+      font-weight: 700;
+      color: #1c1917;
+      line-height: 1.25;
+      white-space: nowrap;
+    }
+    .moving-3d-click-cta {
+      font-size: 0.73rem;
+      color: #d97706;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 2px;
+    }
+
+    /* 3D VIDEO THEATER MODAL */
+    .video-theater-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 15, 29, 0.88);
+      backdrop-filter: blur(14px);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .video-theater-modal.active {
+      display: flex;
+      opacity: 1;
+    }
+    .theater-container {
+      background: #0f172a;
+      border: 2px solid #10b981;
+      border-radius: 24px;
+      max-width: 940px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 25px 60px -10px rgba(0, 0, 0, 0.7);
+      position: relative;
+      animation: theaterPop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    @keyframes theaterPop {
+      from { transform: scale(0.92); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .theater-header {
+      padding: 16px 24px;
+      background: #1e293b;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .theater-badge-era {
+      background: #059669;
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .theater-stage-name {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .theater-close-btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: #fff;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+    .theater-close-btn:hover {
+      background: #ef4444;
+    }
+
+    /* Screen with 3D Motion Simulation */
+    .theater-screen-wrap {
+      position: relative;
+      width: 100%;
+      height: 480px;
+      background: #000;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .theater-screen-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: scale(1);
+      transition: transform 12s linear;
+    }
+    .theater-screen-img.ken-burns-active {
+      transform: scale(1.18) translate(-1.5%, -1.5%);
+    }
+
+    /* Film grain & lighting overlay */
+    .theater-screen-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 40%, rgba(0,0,0,0.6) 100%);
+      pointer-events: none;
+    }
+    .theater-3d-watermark {
+      position: absolute;
+      top: 18px;
+      left: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      padding: 6px 12px;
+      color: #10b981;
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .theater-sound-indicator {
+      position: absolute;
+      top: 18px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 9999px;
+      padding: 6px 14px;
+      color: #fbbf24;
+      font-size: 0.75rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+    }
+
+    /* Audio visualizer wave bar */
+    .audio-wave-bars {
+      display: inline-flex;
+      align-items: flex-end;
+      gap: 2px;
+      height: 12px;
+    }
+    .wave-bar {
+      width: 2.5px;
+      height: 4px;
+      background: #fbbf24;
+      border-radius: 1px;
+      animation: waveJump 0.8s ease-in-out infinite alternate;
+    }
+    .wave-bar:nth-child(2) { animation-delay: 0.2s; height: 8px; }
+    .wave-bar:nth-child(3) { animation-delay: 0.4s; height: 12px; }
+    .wave-bar:nth-child(4) { animation-delay: 0.1s; height: 6px; }
+
+    @keyframes waveJump {
+      from { height: 3px; }
+      to { height: 12px; }
+    }
+
+    /* Cinematic Subtitle / Story Bar */
+    .theater-caption-box {
+      position: absolute;
+      bottom: 24px;
+      left: 24px;
+      right: 24px;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 16px;
+      padding: 16px 20px;
+      color: #ffffff;
+    }
+    .caption-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .caption-era {
+      font-size: 0.75rem;
+      font-weight: 800;
+      color: #10b981;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .caption-sound-label {
+      font-size: 0.72rem;
+      color: #fbbf24;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .caption-text {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #f1f5f9;
+    }
+    .caption-tamil {
+      margin-top: 6px;
+      font-size: 0.88rem;
+      color: #cbd5e1;
+      font-style: italic;
+    }
+
+    /* Video Player Controls Bar */
+    .theater-controls-bar {
+      background: #1e293b;
+      padding: 16px 24px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .video-timeline-track {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 9999px;
+      position: relative;
+      cursor: pointer;
+    }
+    .video-progress-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #10b981 0%, #d97706 100%);
+      border-radius: 9999px;
+      position: relative;
+      transition: width 0.1s linear;
+    }
+    .video-progress-fill::after {
+      content: '';
+      position: absolute;
+      right: -6px;
+      top: -3px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 0 8px #d97706;
+    }
+
+    .theater-buttons-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    .btn-group-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .btn-theater-ctrl {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+      padding: 8px 16px;
+      border-radius: 9999px;
+      font-size: 0.86rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .btn-theater-ctrl:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-1px);
+    }
+    .btn-theater-play {
+      background: #059669;
+      border-color: #10b981;
+      padding: 10px 22px;
+      font-size: 0.95rem;
+    }
+    .btn-theater-play:hover {
+      background: #047857;
+    }
+    .video-time-readout {
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: #94a3b8;
+    }
+
+    .btn-group-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .toggle-auto-movie {
+      background: rgba(217, 119, 6, 0.2);
+      border: 1px solid #d97706;
+      color: #fbbf24;
+      padding: 8px 16px;
+      border-radius: 9999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .toggle-auto-movie.active {
+      background: #d97706;
+      color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+      .chapter-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+      .chapter-row .chapter-col-empty {
+        display: none;
+      }
+      .chapter-row.right-oriented .chapter-col-card {
+        grid-column: 1;
+      }
+      .theater-screen-wrap {
+        height: 280px;
+      }
+      .moving-3d-arrow-video {
+        position: static;
+        transform: none;
+        animation: none;
+        width: 100%;
+        border-radius: 16px;
+        margin-top: 10px;
+      }
+      .moving-3d-arrow-video:hover {
+        transform: none !important;
+      }
+      .story-arrow-block {
+        flex-direction: column;
+        min-height: auto;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Top Announcement -->
+  <div class="announcement">
+    <span>🌿</span>
+    <span>FREE SHIPPING ACROSS INDIA ON ORDERS ABOVE ₹499 · DIRECT FROM TIRUNELVELI </span>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-inner">
+      <a href="#" class="brand">
+        <img src="logo.png" alt="Y.G Asafoetida Logo" onerror="this.src='favicon.png'" />
+        <div class="brand-text">
+          <span class="brand-name">Y.G Asafoetida</span>
+          <span class="brand-sub">Since 1932 • Tirunelveli</span>
+        </div>
+      </a>
+
+      <nav>
+        <a href="#products">Products</a>
+        <a href="#journey">3D Delivery Journey</a>
+        <a href="#story">Our Story</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <!-- Theme Switcher -->
+        <div class="theme-selector" title="Choose Website Color Theme">
+          <button class="theme-btn theme-emerald active" onclick="setTheme('emerald')" title="Emerald Green"></button>
+          <button class="theme-btn theme-saffron" onclick="setTheme('saffron')" title="Saffron Gold"></button>
+          <button class="theme-btn theme-indigo" onclick="setTheme('indigo')" title="Royal Indigo"></button>
+          <button class="theme-btn theme-plum" onclick="setTheme('plum')" title="Heritage Plum"></button>
+        </div>
+
+        <button class="cart-btn" onclick="alert('Cart preview: All items ready for checkout!')">
+          <span>🛒</span>
+          <span id="cart-count">Cart (0)</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-eyebrow">Heritage Pure Compounded Hing • Estd. 1932</span>
+      <h1>Stone-Compounded in Tirunelveli for Nine Decades</h1>
+      <p>Procured from alpine mountain roots, compounded on traditional granite rollers, and sealed fresh for authentic South Indian kitchens worldwide.</p>
+      
+      <div class="hero-actions">
+        <a href="#products" class="btn-primary">Shop Heritage Hing ↓</a>
+        <a href="#journey" class="btn-secondary">3D Delivery Evolution</a>
+        <a href="#contact" class="btn-secondary">B2B / Export Desk</a>
+      </div>
+
+      <div class="hero-badges">
+        <div class="hero-badge-item">✓ 94+ Years Heritage</div>
+        <div class="hero-badge-item">✓ 100% Purity Compounded</div>
+        <div class="hero-badge-item">✓ FSSAI & Spices Board Certified</div>
+        <div class="hero-badge-item">✓ Worldwide Exports</div>
+      </div>
+    </div>
+
+    <div class="hero-media">
+      <video autoplay muted loop playsinline poster="logo.png">
+        <source src="hero-video.mp4" type="video/mp4" />
+        <source src="hero-video-master.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </section>
+
+  <!-- Products Section (Y.G FIRST, THEN VISMAYA) -->
+  <section id="products" class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Authentic Kitchen Essentials</div>
+      <h2>Our Complete Heritage Range</h2>
+      <p>Hand-crafted compounded hing powders, gold cakes, gluten-free formulations, followed by stone-roasted South Indian podis.</p>
+    </div>
+
+    <div class="filters" id="category-filters">
+      <button class="filter-btn active" onclick="filterProducts('all')">All Products (31)</button>
+      <button class="filter-btn" onclick="filterProducts('yg')">Y.G Asafoetida & Heritage (14)</button>
+      <button class="filter-btn" onclick="filterProducts('vismaya')">Vismaya Spice Podis & Millets (17)</button>
+    </div>
+
+    <!-- Product Grid: Organized with YG First, then Vismaya -->
+    <div class="product-grid" id="product-grid"></div>
+  </section>
+
+  <div id="journey"></div>
+  <!-- =========================================================================
+       OUR 94-YEAR HERITAGE STORY & 9 3D ARROW VIDEO SCENARIOS
+       ========================================================================= -->
+  <section id="story" class="story-section">
+    <div class="section-header">
+      <div class="section-eyebrow">Nine Decades of Culinary Truth</div>
+      <h2>Our 94-Year Heritage Story</h2>
+      <p>From the bustling spice lanes of 1931 Tirunelveli to dinner tables across 30+ international markets.</p>
+    </div>
+
+    <!-- Master 3D Video Experience Cinema Banner -->
+    <div class="story-cinema-banner">
+      <div class="cinema-banner-content">
+        <div>
+          <div class="cinema-banner-title">
+            <span>🎬</span>
+            <span>9-Stage 3D Delivery & Craft Evolution (1931 — 2026)</span>
+          </div>
+          <div class="cinema-banner-desc">
+            Experience how Y.G Hing traveled across nine decades — from two grandmothers hand-pounding hing at home, through foot courier, carrier pigeon, steam train, motorbike, van, to 1-tap mobile booking and your sizzling kitchen sambar!
+          </div>
+        </div>
+        <div class="cinema-banner-actions">
+          <button class="btn-play-movie" onclick="playFull3dMovie()">
+            <span>▶</span>
+            <span>Play Full 3D Film (All 9 Scenes)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Stage Jump Bar -->
+      <div class="cinema-quick-pills">
+        <div class="quick-pill-item" onclick="open3dVideoModal(0)">
+          <img src="images/journey/stage1-grandmothers.jpg" class="quick-pill-thumb" alt="Stage 1" />
+          <span class="quick-pill-text">1. Rendu Patti Home Prep</span>
+        </div>
+        <div class="quick-pill-item" onclick="open3dVideoModal(1)">
+          <img src="images/journey/stage2-walking.jpg" class="quick-pill-thumb" alt="Stage 2" />
+          <span class="quick-pill-text">2. Walking Foot Courier</span>
+        </div>
+        <div class="quick-pill-item" onclick="open3dVideoModal(2)">
+          <img src="images/journey/stage3-pigeon.jpg" class="quick-pill-thumb" alt="Stage 3" />
+          <span class="quick-pill-text">3. Carrier Pigeon Dispatch</span>
+        </div>
+        <div class="quick-pill-item" onclick="open3dVideoModal(3)">
+          <img src="images/journey/stage4-bicycle.jpg" class="quick-pill-thumb" alt="Stage 4" />
+          <span class="quick-pill-text">4. Vintage Cycle Courier</span>
+        </div>
+        <div class="quick-pill-item" onclick="open3dVideoModal(4)">
+          <img src="images/journey/stage5-train.jpg" class="quick-pill-thumb" alt="Stage 5" />
+          <span class="quick-pill-text">5. Steam Railway Freight</span>
+        </div>
+        <div class="quick-pill-item" onclick="open3dVideoModal(5)">
+          <img src="images/journey/stage6-motorbike.jpg" class="quick-pill-thumb" alt="Stage 6" />
+          <span class="quick-pill-text">6. Motorbike Express</span>
+        </div>
+        <div class="quick-pill-item" onclick="open3dVideoModal(6)">
+          <img src="images/journey/stage7-van.jpg" class="quick-pill-thumb" alt="Stage 7" />
+          <span class="quick-pill-text">7. Modern Logistics Fleet</span>
+        </div>
+        <div class="quick-pill-item" onclick="open3dVideoModal(7)">
+          <img src="images/journey/stage8-mobile.jpg" class="quick-pill-thumb" alt="Stage 8" />
+          <span class="quick-pill-text">8. 1-Tap Mobile App Order</span>
+        </div>
+        <div class="quick-pill-item" onclick="open3dVideoModal(8)">
+          <img src="images/journey/stage9-kitchen.jpg" class="quick-pill-thumb" alt="Stage 9" />
+          <span class="quick-pill-text">9. Pure Kitchen Sambar Tadka</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- The 10 Chapters with 9 Connecting 3D Video Arrows -->
+    <div class="story-chapters-flow" id="story-flow-container">
+      <!-- Generated dynamically by JS with high fidelity -->
+    </div>
+  </section>
+
+  <!-- 3D VIDEO THEATER MODAL -->
+  <div id="video-theater-modal" class="video-theater-modal" onclick="onModalBackdropClick(event)">
+    <div class="theater-container" onclick="event.stopPropagation()">
+      <div class="theater-header">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span class="theater-badge-era" id="th-era">1931 • Heritage Craft</span>
+          <span class="theater-stage-name" id="th-title">Two Grandmothers' Craft</span>
+        </div>
+        <button class="theater-close-btn" onclick="close3dVideoModal()" title="Close 3D Video">✕</button>
+      </div>
+
+      <div class="theater-screen-wrap">
+        <img id="th-screen-img" class="theater-screen-img" src="images/journey/stage1-grandmothers.jpg" alt="3D Video Scene" />
+        <div class="theater-screen-overlay"></div>
+        <div class="theater-3d-watermark">
+          <span>🎥</span>
+          <span>Y.G 3D CINEMATIC MOTION</span>
+        </div>
+        <div class="theater-sound-indicator" onclick="toggleAudioMute()" id="th-sound-btn" title="Toggle Sound">
+          <div class="audio-wave-bars" id="th-wave-bars">
+            <span class="wave-bar"></span>
+            <span class="wave-bar"></span>
+            <span class="wave-bar"></span>
+            <span class="wave-bar"></span>
+          </div>
+          <span id="th-sound-text">Sound: ON</span>
+        </div>
+
+        <div class="theater-caption-box">
+          <div class="caption-meta">
+            <span class="caption-era" id="th-cap-era">SCENARIO 01 • 1931</span>
+            <span class="caption-sound-label" id="th-sound-label">🔊 Ambient: Stone Mortar Grinding</span>
+          </div>
+          <div class="caption-text" id="th-cap-en">Two traditional grandmothers (pattis) hand-pounding authentic hing in a stone mortar at home.</div>
+          <div class="caption-tamil" id="th-cap-ta">இரண்டு பாட்டிகள் பாரம்பரிய முறைப்படி வீட்டு உரலில் தூய பெருங்காயத்தை இடித்தல்.</div>
+        </div>
+      </div>
+
+      <div class="theater-controls-bar">
+        <div class="video-timeline-track" onclick="seekVideoProgress(event)" id="th-track">
+          <div class="video-progress-fill" id="th-progress"></div>
+        </div>
+
+        <div class="theater-buttons-row">
+          <div class="btn-group-left">
+            <button class="btn-theater-ctrl btn-theater-play" onclick="toggleVideoPlay()" id="th-play-btn">
+              <span id="th-play-icon">❚❚</span>
+              <span id="th-play-text">Pause</span>
+            </button>
+            <button class="btn-theater-ctrl" onclick="stepVideoScene(-1)" title="Previous Scene">
+              <span>⏮</span>
+              <span>Prev</span>
+            </button>
+            <button class="btn-theater-ctrl" onclick="stepVideoScene(1)" title="Next Scene">
+              <span>Next</span>
+              <span>⏭</span>
+            </button>
+            <span class="video-time-readout" id="th-timer">00:03 / 00:10</span>
+          </div>
+
+          <div class="btn-group-right">
+            <button class="toggle-auto-movie active" onclick="toggleMovieAutoAdvance()" id="th-auto-btn">
+              <span>🔄</span>
+              <span id="th-auto-text">Movie Mode: Autoplay ON</span>
+            </button>
+            <button class="btn-theater-ctrl" onclick="toggleFullscreenTheater()" title="Fullscreen">
+              <span>⛶ Fullscreen</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section --><!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="section-header">
+      <div class="section-eyebrow">Direct From Tirunelveli</div>
+      <h2>Reach Mayil Agro Foods</h2>
+      <p>Inquiries for wholesale orders, white-labelling, international exports, or direct retail support.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Contact Details Card -->
+      <div class="contact-card">
+        <h3>Y.G Asafoetida</h3>
+        <p style="color: var(--muted); font-size: 0.95rem;">Manufactured & Exported by <strong>Mayil Agro Foods</strong>.</p>
+
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <span class="contact-label">Address</span>
+            <span class="contact-val">
+              1/303, M.K. Nagar, near HP fuel station, Tenkasi - Tirunelveli Main Road,<br />
+              Tirunelveli - 627012, Tamil Nadu
+            </span>
+          </div>
+
+          <div class="contact-info-item">
+            <span class="contact-label">Telephone</span>
+            <span class="contact-val"><a href="tel:0462 - 233 5555">0462 - 233 5555</a></span>
+          </div>
+
+          <div class="contact-info-item">
+            <span class="contact-label">Direct Mobile / WhatsApp</span>
+            <span class="contact-val"><a href="tel:+91 7200622221">+91 7200622221</a></span>
+          </div>
+
+          <div class="contact-info-item">
+            <span class="contact-label">Sales & Export Desk</span>
+            <span class="contact-val"><a href="tel:+91 790 456 7979">+91 790 456 7979</a></span>
+          </div>
+
+          <div class="contact-info-item">
+            <span class="contact-label">Email Contacts</span>
+            <span class="contact-val">
+              Retail: <a href="mailto:sales@yghing.com">sales@yghing.com</a><br />
+              Exports: <a href="mailto:exports@yghing.com">exports@yghing.com</a><br />
+              Support: <a href="mailto:support@yghing.com">support@yghing.com</a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inquiry Form -->
+      <div class="contact-card">
+        <h3>Send an Inquiry</h3>
+        <form onsubmit="handleInquiry(event)">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" id="inq-name" class="form-input" placeholder="e.g. Anand Kumar" required />
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="inq-email" class="form-input" placeholder="anand@example.com" required />
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" id="inq-phone" class="form-input" placeholder="+91 98765 43210" required />
+          </div>
+          <div class="form-group">
+            <label>Message / Order Requirements</label>
+            <textarea id="inq-msg" class="form-textarea" placeholder="Enter your inquiry details..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">Submit Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Detail Modal -->
+  <div class="modal-backdrop" id="product-modal" onclick="closeModal(event)">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <div class="modal-img-wrap">
+        <img id="modal-img" src="" alt="Product" />
+      </div>
+      <div class="modal-body">
+        <span id="modal-badge" class="product-badge" style="position: static; display: inline-block; margin-bottom: 8px;"></span>
+        <h3 id="modal-title" style="font-size: 1.4rem; margin-bottom: 8px;"></h3>
+        <p id="modal-desc" style="color: var(--muted); font-size: 0.9rem; margin-bottom: 16px;"></p>
+        <div id="modal-variants" class="product-variants"></div>
+        <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border); padding-top: 14px;">
+          <span id="modal-price" style="font-size: 1.35rem; font-weight: 700;"></span>
+          <button class="btn-primary" onclick="addToCart(currentModalProduct.name); closeModal();">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4 style="font-size: 1.2rem; color: #fff;">Y.G Asafoetida</h4>
+        <p style="margin-bottom: 12px; line-height: 1.6;">Celebrating 94+ Years of Legacy. Artisanal compounded hing, pure gold cake, multigrain sathu maavu, and authentic temple sambrani from Tirunelveli.</p>
+        <p>A heritage trademark of <strong>Mayil Agro Foods</strong>.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#products">Y.G Asafoetida Range</a></li>
+          <li><a href="#products">Vismaya Spice Podis</a></li>
+          <li><a href="#journey">3D Delivery Journey</a></li>
+          <li><a href="#story">Our Story</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legacy</h4>
+        <ul>
+          <li><a href="#story">Brand Story (1932)</a></li>
+          <li><a href="#story">Granite Roller Craft</a></li>
+          <li><a href="#contact">White Labelling</a></li>
+          <li><a href="#contact">Global Exports</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <p>1/303, M.K. Nagar, Tenkasi Road,<br />Tirunelveli - 627012, Tamil Nadu</p>
+        <p style="margin-top: 8px;">Phone: <strong>+91 7200622221</strong></p>
+        <p>Email: <strong>sales@yghing.com</strong></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 1932 - 2026 Mayil Agro Foods / Y.G Asafoetida. All Rights Reserved. Exact replica of https://yghing.com/.
+    </div>
+  </footer>
+
+  <script>
+    const allProducts = [{"slug": "gold-asafoetida-powder", "name": "Y.G Gold Asafoetida Powder", "tagline": "Heritage Gold Compounded Asafoetida Powder", "format": "powder", "glutenFree": false, "bestseller": true, "image": "/products/50g-gold-asafoetida-powder/img-1.jpg", "gallery": ["/products/50g-gold-asafoetida-powder/img-1.jpg", "/products/100g-gold-asafoetida-powder/img-1.jpg", "/products/200g-gold-asafoetida-powder/img-1.jpg", "/products/500g-gold-asafoetida-powder/img-1.jpg", "/products/100g-gold-asafoetida-powder/img-2.jpg"], "description": "Our signature Gold grade compounded hing powder crafted to age-old Tirunelveli traditions since 1932. Rich, intense aromatic profile that elevates every sambar, rasam, kootu, and tadka with wholesome flavor.", "ingredients": "Asafoetida (Ferula asafoetida), edible starch, edible gum, refined vegetable oil.", "usageInstructions": "Add 1/4 teaspoon to hot ghee or oil during tempering.", "shelfLife": "18 months from packing. Store in an airtight container.", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 1420, "variants": [{"id": "50g", "label": "50 g", "price": 67, "mrp": 96, "stock": 80}, {"id": "100g", "label": "100 g", "price": 130, "mrp": 186, "stock": 120}, {"id": "200g", "label": "200 g", "price": 245, "mrp": 350, "stock": 50}, {"id": "500g", "label": "500 g", "price": 595, "mrp": 850, "stock": 40}]}, {"slug": "premium-asafoetida-powder", "name": "Y.G Premium Asafoetida Powder", "tagline": "Master Chef's High-Concentration Hing Powder", "format": "powder", "glutenFree": false, "bestseller": true, "image": "/products/50g-premium-asafoetida-powder/img-1.jpg", "gallery": ["/products/50g-premium-asafoetida-powder/img-1.jpg", "/products/100g-premium-asafoetida-powder/img-1.jpg", "/products/200g-premium-asafoetida-powder/img-1.jpg", "/products/500g-premium-asafoetida-powder/img-1.jpg", "/products/100g-premium-asafoetida-powder/img-2.jpg"], "description": "Superior chef-grade asafoetida with higher natural resin concentration for deep, pungent aroma and unmatched digestive tempering potency.", "ingredients": "Selected Asafoetida (Ferula asafoetida), edible starch, gum arabic.", "usageInstructions": "A small pinch in hot oil or ghee is sufficient for a family curry.", "shelfLife": "24 months from packing in a sealed jar.", "in_stock": true, "stock_left": null, "rating": 4.8, "reviews": 890, "variants": [{"id": "50g", "label": "50 g", "price": 195, "mrp": 225, "stock": 89}, {"id": "100g", "label": "100 g", "price": 360, "mrp": 410, "stock": 110}, {"id": "200g", "label": "200 g", "price": 690, "mrp": 790, "stock": 60}, {"id": "500g", "label": "500 g", "price": 1650, "mrp": 1890, "stock": 35}]}, {"slug": "asafoetida-gold-cake", "name": "Y.G Asafoetida Gold Cake (Pindi Hing)", "tagline": "Solid Block Pindi Hing for Pickles & Traditional Tadka", "format": "cake", "glutenFree": false, "bestseller": false, "image": "/products/50g-asafoetida-gold-cake/img-2.jpg", "gallery": ["/products/50g-asafoetida-gold-cake/img-2.jpg", "/products/100g-asafoetida-gold-cake/img-2.jpg", "/products/50g-asafoetida-gold-cake/img-4.jpg", "/products/100g-asafoetida-gold-cake/img-4.jpg"], "description": "Pure concentrated gold hing cake block. Scrape or shave a small flake into hot oil to release intense, unbroken culinary fragrance, or soak in warm water for aromatic gravy infusion.", "ingredients": "Asafoetida (Ferula asafoetida), edible gum, edible starch.", "usageInstructions": "Shave a pea-sized piece into tempering or dissolve in 2 tbsp warm water.", "shelfLife": "36 months. Keep wrapped in foil inside airtight container.", "in_stock": true, "stock_left": null, "rating": 4.8, "reviews": 340, "variants": [{"id": "50g", "label": "50 g", "price": 60, "mrp": 86, "stock": 50}, {"id": "100g", "label": "100 g", "price": 115, "mrp": 164, "stock": 60}]}, {"slug": "premium-cake", "name": "Y.G Asafoetida Premium Cake", "tagline": "Premium Block Hing Cake for Master Chefs & Feasts", "format": "cake", "glutenFree": false, "bestseller": true, "image": "/products/50g-asafoetida-gold-cake/img-1.jpg", "gallery": ["/products/50g-asafoetida-gold-cake/img-1.jpg", "/products/100g-asafoetida-gold-cake/img-1.jpg", "/products/50g-asafoetida-gold-cake/img-3.jpg", "/products/100g-asafoetida-gold-cake/img-3.jpg"], "description": "Ultra-potent solid compounded premium hing cake block. Scrape or shave a small flake into hot oil to release intense, unbroken culinary fragrance, or soak in warm water for aromatic gravy infusion.", "ingredients": "Asafoetida (Ferula asafoetida), edible gum, edible starch.", "usageInstructions": "Shave a pea-sized piece into tempering or dissolve in 2 tbsp warm water.", "shelfLife": "36 months. Keep wrapped in foil inside airtight container.", "in_stock": true, "stock_left": null, "rating": 4.7, "reviews": 340, "variants": [{"id": "50g", "label": "50 g", "price": 240, "mrp": 280, "stock": 50}, {"id": "100g", "label": "100 g", "price": 450, "mrp": 520, "stock": 60}]}, {"slug": "gluten-free-asafoetida-powder", "name": "Y.G Gluten Free Asafoetida Powder", "tagline": "Wheat-Free Rice Starch Base — 100\\% Celiac Safe", "format": "gluten-free", "glutenFree": true, "bestseller": true, "image": "/products/50g-gluten-free-asafoetida-powder/img-1.jpg", "gallery": ["/products/50g-gluten-free-asafoetida-powder/img-1.jpg", "/products/100g-gluten-free-asafoetida-powder/img-1.jpg", "/products/50g-gluten-free-asafoetida-powder/img-2.jpg", "/products/50g-gluten-free-asafoetida-powder/img-3.jpg", "/products/50g-gluten-free-asafoetida-powder/img-4.jpg"], "description": "Made exclusively with pure rice starch base without any wheat flour. Delivers 100\\% authentic hing aroma for gluten-sensitive and celiac households.", "ingredients": "Asafoetida (Ferula asafoetida), rice starch, edible gum. Certified gluten-free.", "usageInstructions": "Use exactly like classic powder — 1/4 tsp per dish.", "shelfLife": "18 months from packing.", "in_stock": true, "stock_left": 8, "rating": 4.8, "reviews": 512, "variants": [{"id": "50g", "label": "50 g", "price": 220, "mrp": 250, "stock": 65}, {"id": "100g", "label": "100 g", "price": 395, "mrp": 450, "stock": 75}]}, {"slug": "Coarse-grained-hing", "name": "Y.G Hing Granules (Coarse-grained)", "tagline": "Natural Ferula Gum Resin", "format": "granules", "glutenFree": false, "bestseller": false, "image": "/products/hing/img-1.jpg", "gallery": ["/products/hing/img-1.jpg"], "description": "The raw, unadulterated gum oleoresin directly harvested from the mountain roots of Ferula. Extremely potent and medicinal — a microscopic piece will transform an entire banquet.", "ingredients": "Edible Gum, Wheat Flour, Asafoetida", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 0, "variants": [{"id": "50g", "label": "50 g", "price": 89, "mrp": 110, "stock": 100}, {"id": "100g", "label": "100 g", "price": 169, "mrp": 220, "stock": 100}]}, {"slug": "hing-chips", "name": "Y.G Hing Chips (Flakes / Khada)", "tagline": "Sun-Dried Asafoetida Flakes — Slow Blooming Flavor", "format": "crystal", "glutenFree": false, "bestseller": false, "image": "/products/hing-chips/img-1.jpg", "gallery": ["/products/hing-chips/img-1.jpg", "/products/hing-chips/img-2.jpg"], "description": "Coarse sun-cured hing flakes that bloom slowly in sizzling ghee, infusing sambars, curries, and rasams with deep, lingering flavor.", "ingredients": "Asafoetida (Ferula foetida resin), edible gum, edible flour.", "usageInstructions": "Drop 2-3 flakes into warm ghee before adding spices.", "shelfLife": "24 months in an airtight jar.", "in_stock": true, "stock_left": null, "rating": 4.6, "reviews": 215, "variants": [{"id": "50g", "label": "50 g", "price": 260, "mrp": 300, "stock": 45}, {"id": "100g", "label": "100 g", "price": 490, "mrp": 560, "stock": 50}]}, {"slug": "crystal-asafoetida", "name": "Y.G Crystal Asafoetida (Granules / Pellets)", "tagline": "Crisp Granular Pellets for Curd Rice & Sambar Tempering", "format": "crystal", "glutenFree": false, "bestseller": false, "image": "/products/hing-pellets/img-1.jpg", "gallery": ["/products/hing-pellets/img-1.jpg", "/products/hing-pellets/img-2.jpg", "/products/hing-pellets/img-3.jpg", "/products/hing-pellets/img-4.jpg"], "description": "Free-flowing, crisp hing pellets that dissolve smoothly and puff lightly when dropped in hot oil. The ideal choice for curd rice, buttermilk, vathal kuzhambu, and potato roasts.", "ingredients": "Asafoetida, natural gum, edible cereal starch.", "usageInstructions": "Crush a pellet or drop whole into hot oil during tadka.", "shelfLife": "24 months.", "in_stock": true, "stock_left": null, "rating": 4.5, "reviews": 310, "variants": [{"id": "50g", "label": "50 g", "price": 250, "mrp": 290, "stock": 55}, {"id": "100g", "label": "100 g", "price": 475, "mrp": 540, "stock": 60}]}, {"slug": "pure-raw-hing", "name": "Y.G Pure Raw Hing Lump (Kashmiri Resin)", "tagline": "100\\% Uncut Natural Ferula Gum Resin", "format": "crystal", "glutenFree": false, "bestseller": false, "image": "/products/hing/img-1.jpg", "gallery": ["/products/hing/img-1.jpg", "/products/hing/img-2.jpg", "/products/hing/img-3.jpg", "/products/hing/img-4.jpg"], "description": "The raw, unadulterated gum oleoresin directly harvested from the mountain roots of Ferula. Extremely potent and medicinal — a microscopic piece will transform an entire banquet.", "ingredients": "100\\% Raw Asafoetida Oleoresin (Ferula foetida). Zero additives.", "usageInstructions": "Scrape a tiny pinhead amount and dissolve in warm liquid.", "shelfLife": "60 months. Indefinite when kept dry and sealed.", "in_stock": true, "stock_left": null, "rating": 4.4, "reviews": 195, "variants": [{"id": "50g", "label": "50 g", "price": 720, "mrp": 820, "stock": 40}, {"id": "100g", "label": "100 g", "price": 1350, "mrp": 1550, "stock": 25}]}, {"slug": "bottle-jar-asafoetida", "name": "Y.G Heritage Bottle Jar Asafoetida", "tagline": "Collector's Glass Bottle Jar with Airtight Aroma Seal", "format": "powder", "glutenFree": false, "bestseller": true, "image": "/products/bottle-jar/img-1.jpg", "gallery": ["/products/bottle-jar/img-1.jpg", "/products/bottle-jar/img-2.jpg", "/products/bottle-jar/img-3.jpg", "/products/bottle-jar/img-4.jpg", "/products/bottle-jar/img-5.jpg"], "description": "Presented in our signature airtight glass bottle jar with hermetic seal to preserve volatile aromatic oils for years. Reusable and collector-worthy.", "ingredients": "Compounded Asafoetida (Ferula asafoetida), edible starch, edible gum.", "usageInstructions": "Keep on kitchen counter for easy daily spooning.", "shelfLife": "36 months in aroma-lock glass jar.", "in_stock": true, "stock_left": null, "rating": 4.7, "reviews": 460, "variants": [{"id": "100g", "label": "100 g Glass Jar", "price": 380, "mrp": 440, "stock": 40}, {"id": "250g", "label": "250 g Glass Jar", "price": 850, "mrp": 990, "stock": 30}]}, {"slug": "all-product-heritage-combo", "name": "Y.G Complete Heritage Asafoetida Combo", "tagline": "Grand All-in-One Collection Box with Spoon & Notes", "format": "combo", "glutenFree": false, "bestseller": true, "image": "/products/all-product/img-1.jpg", "gallery": ["/products/all-product/img-1.jpg", "/products/all-product/img-2.jpg", "/products/all-product/img-3.jpg", "/products/all-product/img-4.jpg", "/products/all-product/img-5.jpg", "/products/all-product/img-6.jpg"], "description": "The definitive Y.G tasting experience containing Gold Powder, Premium Cake, Pellets, Chips, and Bottle Jar alongside an engraved brass spoon and heritage recipe cards.", "ingredients": "Contains: Gold Powder (100g), Cake (50g), Pellets (50g), Chips (50g), Brass Spoon.", "usageInstructions": "The ultimate culinary gift for gourmet cooks and heritage lovers.", "shelfLife": "24 months.", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 280, "variants": [{"id": "4in1", "label": "4-in-1 Heritage Box", "price": 999, "mrp": 1299, "stock": 50}, {"id": "deluxe", "label": "Deluxe Hamper Box", "price": 1799, "mrp": 2299, "stock": 30}]}, {"slug": "traditional-health-mix", "name": "Y.G Traditional Health Mix (Sathu Maavu)", "tagline": "18 Multigrain Energy Porridge with Millets, Pulses & Nuts", "format": "health-mix", "glutenFree": false, "bestseller": true, "image": "/products/traditional-health-mix/200g.jpg", "gallery": ["/products/traditional-health-mix/200g.jpg", "/products/traditional-health-mix/500g.jpg", "/products/traditional-health-mix/200g-2.jpg", "/products/traditional-health-mix/500g-2.jpg", "/products/traditional-health-mix/img-1.jpg"], "description": "Handcrafted traditional Sathu Maavu multigrain porridge mix slowly dry-roasted on wood-fired irons and stone-ground from 18 traditional grains, pulses, millets, cardamom, and roasted nuts. Ideal daily morning nourishment for all ages.", "ingredients": "Ragi, Kambu (Pearl Millet), Red Rice, Roasted Gram, Green Gram, Wheat, Sorghum, Almonds, Cashews, Cardamom, Dry Ginger.", "usageInstructions": "Mix 2 tbsp in 250ml water or milk, simmer for 3-5 minutes with country jaggery or salt & buttermilk.", "shelfLife": "9 months from packing. Store in an airtight container.", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 310, "variants": [{"id": "200g", "label": "200 g", "price": 140, "mrp": 165, "stock": 90}, {"id": "500g", "label": "500 g", "price": 320, "mrp": 380, "stock": 65}]}, {"slug": "pure-benzoin-sambrani", "name": "Y.G Pure Natural Benzoin (Pooja Sambrani)", "tagline": "Sacred Temple Loban Resin for Puja & Daily Fragrance", "format": "sambrani", "glutenFree": true, "bestseller": true, "image": "/products/pure-benzoin-sambrani/50g.png", "gallery": ["/products/pure-benzoin-sambrani/50g.png", "/products/pure-benzoin-sambrani/500g.jpg", "/products/pure-benzoin-sambrani/img-1.png", "/products/pure-benzoin-sambrani/img-2.jpg", "/products/pure-benzoin-sambrani/img-3.jpg"], "description": "Pure natural Benzoin resin (Loban / Paal Sambrani) sourced directly from natural balsamic trees. Produces divine, authentic temple aroma and clears airborne impurities when sprinkled on glowing charcoal.", "ingredients": "100\\% Pure Natural Benzoin Resin (Styrax benzoin).", "usageInstructions": "Sprinkle a small piece onto glowing coconut shell charcoal or dhoop burner.", "shelfLife": "36 months. Store in a dry place.", "in_stock": true, "stock_left": null, "rating": 4.8, "reviews": 185, "variants": [{"id": "50g", "label": "50 g", "price": 160, "mrp": 190, "stock": 95}, {"id": "500g", "label": "500 g", "price": 1250, "mrp": 1450, "stock": 35}]}, {"slug": "crispy-appalam", "name": "Y.G Crispy Appalam", "tagline": "Authentic Tirunelveli Sun-Dried Crunchy Lentil Papad", "format": "crispy-appalam", "glutenFree": false, "bestseller": true, "image": "/products/crispy-appalam/img-1.jpg", "gallery": ["/products/crispy-appalam/img-1.jpg"], "description": "Traditional South Indian Crispy Appalams prepared with stone-ground urad dal, infused with signature Y.G compounded hing and sun-dried to delicate golden perfection. Puffs up light, airy, and crunchily irresistible in warm oil or over an open flame.", "ingredients": "Urad Dal Flour, Rice Flour, Y.G Asafoetida, Edible Salt, Calcium Carbonate.", "usageInstructions": "Deep fry in hot oil for 5 seconds until puffed, or roast over fire.", "shelfLife": "12 months from packing. Store in an airtight container.", "in_stock": true, "stock_left": null, "rating": 4.6, "reviews": 245, "variants": [{"id": "100g", "label": "100 g", "price": 65, "mrp": 80, "stock": 120}, {"id": "200g", "label": "200 g", "price": 120, "mrp": 150, "stock": 90}, {"id": "300g", "label": "300 g", "price": 170, "mrp": 210, "stock": 70}]}, {"slug": "black-ellu-podi", "name": "Vismaya Ellu Podi (Black Sesame Idli Powder)", "tagline": "Traditional Sun-Dried High-Calcium Black Sesame Podi", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/black-sesame-seeds/img-1.jpg", "gallery": ["/products/black-sesame-seeds/img-1.jpg", "/products/black-sesame-seeds/img-2.jpg"], "description": "Carefully selected and wood-roasted indigenous South Indian Black Sesame (Karuppu Ellu) with lentils, red chillies, and asafoetida. Rich in natural calcium, iron, and deep nutty aroma. Perfect for idlis, dosas, and hot steamed rice.", "ingredients": "Indigenous Black Sesame Seeds (Karuppu Ellu), Roasted Lentils, Red Chillies, Asafoetida, Curry Leaves, Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 0, "variants": [{"id": "200g", "label": "200 g", "price": 135, "mrp": 160, "stock": 100}]}, {"slug": "tirunelveli-special-kids-paruppu-podi", "name": "Vismaya Tirunelveli Special Kids Paruppu Podi", "tagline": "Heritage Tamaraibarani Wood-Roasted Lentil Podi with Pepper", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/tirunelveli-special-paruppu-podi/img-1.jpg", "gallery": ["/products/tirunelveli-special-paruppu-podi/img-1.jpg"], "description": "Signature Southern Tamil Nadu roasted paruppu podi with golden roasted lentils, Tellicherry black peppercorns, curry leaves, and heritage Y.G hing. Comforting, digestive, and deeply satisfying with hot rice and sesame oil.", "ingredients": "Selected Toor Dal, Bengal Gram, Black Pepper, Dry Ginger, Y.G Compounded Hing, Curry Leaves, Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 0, "variants": [{"id": "200g", "label": "200 g", "price": 129, "mrp": 160, "stock": 90}]}, {"slug": "ellu-idli-podi", "name": "Vismaya Black Sesame Idli Podi", "tagline": "Traditional Sun-Dried High-Calcium Black Sesame Podi", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/black-sesame-seeds/img-1.jpg", "gallery": ["/products/black-sesame-seeds/img-1.jpg"], "description": "Carefully selected and wood-roasted indigenous South Indian Black Sesame (Karuppu Ellu) with lentils, red chillies, and asafoetida. Rich in natural calcium, iron, and deep nutty aroma. Perfect for idlis, dosas, and hot steamed rice.", "ingredients": "Indigenous Black Sesame Seeds (Karuppu Ellu), Roasted Lentils, Red Chillies, Asafoetida, Curry Leaves, Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 0, "variants": [{"id": "200g", "label": "200 g", "price": 119, "mrp": 160, "stock": 100}]}, {"slug": "kids-special-paruppu-podi", "name": "Vismaya Kids Paruppu Podi", "tagline": "Heritage Tamaraibarani-Roasted Lentil Podi with Pepper", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/tirunelveli-special-paruppu-podi/img-1.jpg", "gallery": ["/products/tirunelveli-special-paruppu-podi/img-1.jpg"], "description": "Signature Southern Tamil Nadu roasted paruppu podi with golden roasted lentils, Tellicherry black peppercorns, curry leaves, and heritage Y.G hing. Comforting, digestive, and deeply satisfying with hot rice and sesame oil.", "ingredients": "Selected Toor Dal, Bengal Gram, Black Pepper, Dry Ginger, Y.G Compounded Hing, Curry Leaves, Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 0, "variants": [{"id": "200g", "label": "200 g", "price": 140, "mrp": 165, "stock": 90}]}, {"slug": "kodo-millet-pongal-mix", "name": "Vismaya Kodo Millet Pongal Mix", "tagline": "Nutrient-Dense Wholesome Foxtail & Kodo Millet Breakfast Blend", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/millet-pongal-mix/img-1.jpg", "gallery": ["/products/millet-pongal-mix/img-1.jpg"], "description": "A hearty, low-glycemic traditional South Indian breakfast blend combining unpolished heritage Kodo and Foxtail millets with yellow moong dal, crushed Tellicherry black pepper, cumin seeds, roasted cashews, and ginger. Cooks into a piping-hot, comforting Ven Pongal in under 10 minutes.", "ingredients": "Kodo Millet (Varagu), Foxtail Millet (Thinai), Yellow Moong Dal, Crushed Black Pepper, Cumin Seeds, Whole Cashews, Ginger, Curry Leaves, Y.G Pure Hing, Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 0, "variants": [{"id": "250g", "label": "250 g", "price": 125, "mrp": 150, "stock": 85}]}, {"slug": "kodomillet-sambar-mix", "name": "Vismaya Kodo Millet Sambar Mix", "tagline": "Authentic Tirunelveli Sambar Rice with Ancient Millets & Spices", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/millet-sambar-mix/img-1.jpg", "gallery": ["/products/millet-sambar-mix/img-1.jpg"], "description": "One-pot nourishing South Indian comfort food crafted with Kodo and Barnyard millets, protein-rich toor dal, and an artisanal roasted spice blend infused with tangy tamarind and signature Y.G asafoetida.", "ingredients": "Kodo Millet (Varagu), Barnyard Millet (Kuthiraivali), Toor Dal, Roasted Coriander, Red Chillies, Cumin, Fenugreek, Tamarind, Turmeric, Y.G Compounded Hing, Rock Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 0, "variants": [{"id": "250g", "label": "250 g", "price": 130, "mrp": 155, "stock": 90}]}, {"slug": "multigrain-millet-adai-dosa-mix", "name": "Vismaya Multigrain Millet Adai Dosa Mix", "tagline": "High-Protein Heritage Multi-Millet & 4-Lentil Crisp Adai Blend", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/multi-millet-adai-dosa-mix/img-1.jpg", "gallery": ["/products/multi-millet-adai-dosa-mix/img-1.jpg"], "description": "A rustic, protein-packed traditional South Indian Adai mix blending 5 ancient millets with four hearty lentils, dry chillies, fennel seeds, fresh ginger, and hing. Delivers crispy, golden, wholesome adai dosas without long soaking or fermenting.", "ingredients": "Foxtail Millet, Kodo Millet, Toor Dal, Chana Dal, Urad Dal, Moong Dal, Red Chillies, Cumin, Fennel, Asafoetida, Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.9, "reviews": 0, "variants": [{"id": "500g", "label": "500 g", "price": 230, "mrp": 270, "stock": 80}]}, {"slug": "pirandai-paruppu-podi", "name": "Vismaya Pirandai Paruppu Podi (Adamant Creeper)", "tagline": "Ancient Bone Health & Digestive Herbal Lentil Spice Blend", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/pirandai-paruppu-podi/img-1.jpg", "gallery": ["/products/pirandai-paruppu-podi/img-1.jpg"], "description": "Traditional therapeutic Pirandai (Cissus quadrangularis) slow-roasted in sesame oil to eliminate itchiness and blended with roasted lentils, ginger, tamarind, and asafoetida. Revered in Tamil Siddha heritage for bone density and joint wellness.", "ingredients": "Pirandai (Cissus quadrangularis), Toor Dal, Urad Dal, Dry Red Chillies, Tamarind, Dry Ginger, Asafoetida, Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.4, "reviews": 125, "variants": [{"id": "200g", "label": "200 g", "price": 150, "mrp": 175, "stock": 65}]}, {"slug": "curry-leave-paruppu-podi", "name": "Vismaya Curry Leave Paruppu Podi (Kariveppilai)", "tagline": "Digestive Rich Curry Leaves & Roasted Lentil Chutney Powder", "format": "vismaya", "glutenFree": false, "bestseller": false, "image": "/products/curry-leave-paruppu-podi/img-1.jpg", "gallery": ["/products/curry-leave-paruppu-podi/img-1.jpg"], "description": "Hand-plucked fresh curry leaves gently shade-dried and wood-roasted with indigenous dals, pepper, cumin, and hing. Renowned in Siddha traditions for natural digestive support and hair nourishment.", "ingredients": "Selected Curry Leaves (Kariveppilai), Urad Dal, Chana Dal, Pepper, Cumin, Dry Red Chillies, Asafoetida, Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.7, "reviews": 118, "variants": [{"id": "200g", "label": "200 g", "price": 139, "mrp": 180, "stock": 70}]}, {"slug": "moringa-paruppu-podi", "name": "Vismaya Moringa Paruppu Podi (Murungai Keerai)", "tagline": "Immunity-Boosting Drumstick Leaf Herbal Lentil Gunpowder", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/moringa-paruppu-podi/img-1.jpg", "gallery": ["/products/moringa-paruppu-podi/img-1.jpg"], "description": "Superfood drumstick leaves (Moringa Oleifera) sun-cured and slow-roasted with protein-rich lentils, roasted garlic, black pepper, and pure hing. Packed with iron, calcium, and vitality.", "ingredients": "Sun-Dried Moringa Leaves, Toor Dal, Roasted Gram, Red Chillies, Garlic, Black Pepper, Asafoetida, Rock Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.5, "reviews": 140, "variants": [{"id": "200g", "label": "200 g", "price": 145, "mrp": 170, "stock": 75}]}, {"slug": "multi-millet-adai-dosa-mix", "name": "Vismaya Multi Millet Adai Dosa Mix", "tagline": "High-Protein Heritage Multi-Millet & 4-Lentil Crisp Adai Blend", "format": "vismaya", "glutenFree": true, "bestseller": true, "image": "/products/multi-millet-adai-dosa-mix/img-1.jpg", "gallery": ["/products/multi-millet-adai-dosa-mix/img-1.jpg", "/products/multi-millet-adai-dosa-mix/img-2.jpg"], "description": "A rustic, protein-packed traditional South Indian Adai mix blending 5 ancient millets with four hearty lentils, dry chillies, fennel seeds, fresh ginger, and hing. Delivers crispy, golden, wholesome adai dosas without long soaking or fermenting.", "ingredients": "Foxtail Millet, Kodo Millet, Little Millet, Toor Dal, Chana Dal, Urad Dal, Moong Dal, Red Chillies, Cumin, Fennel, Asafoetida, Salt.", "usageInstructions": "Mix 1 cup with 1.25 cups water into medium batter, rest 15 mins, spread onto hot tawa, roast with ghee or sesame oil.", "shelfLife": "9 months from packing.", "in_stock": true, "stock_left": null, "rating": 4.6, "reviews": 190, "variants": [{"id": "500g", "label": "500 g", "price": 230, "mrp": 270, "stock": 80}]}, {"slug": "kodo-sambar-mix", "name": "Vismaya Kodo Sambar Mix", "tagline": "Authentic Tirunelveli Sambar Rice with Ancient Millets & Spices", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/millet-sambar-mix/img-1.jpg", "gallery": ["/products/millet-sambar-mix/img-1.jpg", "/products/millet-sambar-mix/img-2.jpg"], "description": "One-pot nourishing South Indian comfort food crafted with Kodo and Barnyard millets, protein-rich toor dal, and an artisanal roasted spice blend infused with tangy tamarind and signature Y.G asafoetida.", "ingredients": "Kodo Millet (Varagu), Barnyard Millet (Kuthiraivali), Toor Dal, Roasted Coriander, Red Chillies, Cumin, Fenugreek, Tamarind, Turmeric, Y.G Compounded Hing, Rock Salt.", "usageInstructions": "Add 1 cup mix to 4 cups boiling water in a pressure cooker with vegetables of choice, cook for 3 whistles, finish with a drizzle of ghee.", "shelfLife": "9 months from packing.", "in_stock": true, "stock_left": null, "rating": 4.7, "reviews": 162, "variants": [{"id": "250g", "label": "250 g", "price": 130, "mrp": 155, "stock": 90}]}, {"slug": "kodo-pongal-mix", "name": "Vismaya Kodo Pongal Mix", "tagline": "Nutrient-Dense Wholesome Foxtail & Kodo Millet Breakfast Blend", "format": "vismaya", "glutenFree": true, "bestseller": true, "image": "/products/millet-pongal-mix/img-1.jpg", "gallery": ["/products/millet-pongal-mix/img-1.jpg", "/products/millet-pongal-mix/img-2.jpg"], "description": "A hearty, low-glycemic traditional South Indian breakfast blend combining unpolished heritage Kodo and Foxtail millets with yellow moong dal, crushed Tellicherry black pepper, cumin seeds, roasted cashews, and ginger. Cooks into a piping-hot, comforting Ven Pongal in under 10 minutes.", "ingredients": "Kodo Millet (Varagu), Foxtail Millet (Thinai), Yellow Moong Dal, Crushed Black Pepper, Cumin Seeds, Whole Cashews, Ginger, Curry Leaves, Y.G Pure Hing, Salt.", "usageInstructions": "Pressure cook 1 cup mix with 3.5 cups water for 3 whistles, or simmer in a pot. Top with 1 spoon hot ghee.", "shelfLife": "9 months from packing.", "in_stock": true, "stock_left": null, "rating": 4.5, "reviews": 178, "variants": [{"id": "250g", "label": "250 g", "price": 125, "mrp": 150, "stock": 85}]}, {"slug": "tirunelveli-special-paruppu-podi", "name": "Vismaya Tirunelveli Special Paruppu Podi", "tagline": "Heritage Tamaraibarani Wood-Roasted Lentil Podi with Pepper", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/tirunelveli-special-paruppu-podi/img-1.jpg", "gallery": ["/products/tirunelveli-special-paruppu-podi/img-1.jpg"], "description": "Signature Southern Tamil Nadu roasted paruppu podi with golden roasted lentils, Tellicherry black peppercorns, curry leaves, and heritage Y.G hing. Comforting, digestive, and deeply satisfying with hot rice and sesame oil.", "ingredients": "Selected Toor Dal, Bengal Gram, Black Pepper, Dry Ginger, Y.G Compounded Hing, Curry Leaves, Salt.", "usageInstructions": "Mix with hot steamed ponni rice and pure sesame oil or cow ghee.", "shelfLife": "9 months from packing.", "in_stock": true, "stock_left": null, "rating": 4.6, "reviews": 160, "variants": [{"id": "200g", "label": "200 g", "price": 140, "mrp": 165, "stock": 90}]}, {"slug": "andhra-special-paruppu-podi", "name": "Vismaya Andhra Special Paruppu Podi (Rice Mix)", "tagline": "Authentic Guntur Roasted Lentil & Cumin Spice Blend", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/andhra-special-paruppu-podi/img-1.jpg", "gallery": ["/products/andhra-special-paruppu-podi/img-1.jpg"], "description": "Classic spicy Andhra Kandi Podi formulated with slow-roasted toor dal, moong dal, roasted cumin seeds, garlic, fiery red chillies, and pure compounded hing. A staple delicacy that elevates hot rice and ghee into culinary nirvana.", "ingredients": "Roasted Toor Dal, Roasted Moong Dal, Guntur Red Chillies, Cumin Seeds, Garlic, Asafoetida, Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.8, "reviews": 135, "variants": [{"id": "200g", "label": "200 g", "price": 139, "mrp": 180, "stock": 85}]}, {"slug": "ellu-podi", "name": "Vismaya Ellu Podi (Black Sesame Idli Podi)", "tagline": "Traditional Sun-Dried High-Calcium Black Sesame Podi", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/black-sesame-seeds/img-1.jpg", "gallery": ["/products/black-sesame-seeds/img-1.jpg", "/products/black-sesame-seeds/img-2.jpg"], "description": "Carefully selected and wood-roasted indigenous South Indian Black Sesame (Karuppu Ellu) with lentils, red chillies, and asafoetida. Rich in natural calcium, iron, and deep nutty aroma. Perfect for idlis, dosas, and hot steamed rice.", "ingredients": "Indigenous Black Sesame Seeds (Karuppu Ellu), Roasted Lentils, Red Chillies, Asafoetida, Curry Leaves, Salt.", "usageInstructions": "", "shelfLife": "18 months from packing", "in_stock": true, "stock_left": null, "rating": 4.4, "reviews": 145, "variants": [{"id": "200g", "label": "200 g", "price": 135, "mrp": 160, "stock": 100}]}, {"slug": "traditional-idli-podi", "name": "Vismaya Traditional Idli Podi", "tagline": "Artisanal Wood-Roasted Gunpowder with Pure Hing & Lentils", "format": "vismaya", "glutenFree": false, "bestseller": true, "image": "/products/traditional-idli-podi/img-1.jpg", "gallery": ["/products/traditional-idli-podi/img-1.jpg", "/products/traditional-idli-podi/img-2.jpg", "/products/traditional-idli-podi/img-3.jpg", "/products/traditional-idli-podi/img-4.jpg"], "description": "Grandmother's heritage recipe of slow-roasted urad dal, chana dal, sun-dried Guntur chillies, fresh curry leaves, and a generous pinch of authentic Y.G compounded hing. Coarsely ground for the signature crunchy texture that pairs exquisitely with hot idlis, crispy dosas, and cold-pressed sesame oil or ghee.", "ingredients": "Urad Dal, Chana Dal, Dry Red Chillies, White Sesame, Curry Leaves, Y.G Compounded Asafoetida, Rock Salt.", "usageInstructions": "Mix 1-2 tbsp with cold-pressed gingelly (sesame) oil or hot melted A2 ghee as a dip for idlis and dosas.", "shelfLife": "9 months from packing. Keep jar sealed.", "in_stock": true, "stock_left": null, "rating": 4.7, "reviews": 260, "variants": [{"id": "200g", "label": "200 g", "price": 135, "mrp": 160, "stock": 110}]}];
+    const timelineData = [{"id": "1931", "chapterNo": "Chapter 01", "year": "1931", "category": "The Genesis", "title": "A Humble Beginning", "lead": "YG began in 1931 through our grandfather's initiative, procuring authentic Ferula oleoresin tears to establish culinary truth in Tirunelveli.", "quote": "Our journey began with a vision, dedication, and a commitment to quality.", "image": "/story/1931-founder.jpg", "alt": "Vintage illustration of the founder weighing pure spices on brass balance scales"}, {"id": "1932", "chapterNo": "Chapter 02", "year": "1932", "category": "Brand Conception", "title": "The Birth of YG", "lead": "The business received the name YG, perfecting standardized hand-compounded recipes with stone mortar pits on South Car Street.", "quote": "Two letters that came to define genuine aromatic trust.", "image": "/logo.png", "alt": "Prominent YG logo treatment on archival seal", "isLogo": true}, {"id": "1980", "chapterNo": "Chapter 03", "year": "1980", "category": "Formulation Breakthrough", "title": "Cake Powder", "lead": "A major milestone in the development of cake powder products, engineering controlled milling that preserved essential oils and delicate baking texture.", "image": "/story/1980-cake-powder.jpg", "alt": "Cake powder, a bowl of powder, and a freshly baked cake"}, {"id": "1982", "chapterNo": "Chapter 04", "year": "1982", "category": "Pioneering Sachet", "title": "India's First Sachet", "lead": "Introduction of India's first sachet, according to our brand history, locking in fresh aromatic fragrance in affordable single-use packs.", "historicClaim": true, "image": "/story/1982-sachet.jpg", "alt": "Vintage 1982 YG sachet packaging on antique wood"}, {"id": "2013", "chapterNo": "Chapter 05", "year": "2013", "category": "Third Generation", "title": "Third Generation Enters", "lead": "The third generation joined the business, continuing the family's entrepreneurial legacy while adopting international food safety standards.", "image": "/story/2013-generations.jpg", "alt": "Illustration showing generational connection and craft mentorship"}, {"id": "2014", "chapterNo": "Chapter 06", "year": "2014", "category": "Category Research", "title": "Exploring Appalam", "lead": "The business began studying and exploring the Appalam category, stone-grinding urad dal flour blended with signature hing and sun-drying in open courtyards.", "image": "/story/2014-appalam.jpg", "alt": "Traditional sun-dried appalam discs in a heritage courtyard"}, {"id": "2016", "chapterNo": "Chapter 07", "year": "2016", "category": "Wellness Expansion", "title": "Traditional Health Mix", "lead": "Formulating multigrain Sathu Maavu health mix made from slow-roasted indigenous millets, pulses, and nuts for daily family vitality.", "image": "/products/traditional-health-mix/img-1.jpg", "alt": "Traditional Health Mix Sathu Maavu packaging"}, {"id": "2019", "chapterNo": "Chapter 08", "year": "2019", "category": "Ancient Grains", "title": "Ancient Millet Innovations", "lead": "Pioneering nutrient-dense traditional blends including multi-millet adai dosa mix, kodo pongal, and kodo sambar mixes.", "image": "/products/multi-millet-adai-dosa-mix/img-1.jpg", "alt": "Multi-millet adai dosa and grain mix"}, {"id": "2025", "chapterNo": "Chapter 09", "year": "2025", "category": "Spice Heritage", "title": "Vismaya Rice Powders & Podis", "lead": "Launching the Vismaya culinary line of roasted paruppu podi, traditional idli podi, ellu podi, and nourishing moringa and pirandai podis.", "image": "/products/tirunelveli-special-paruppu-podi/img-1.jpg", "alt": "Vismaya authentic Tirunelveli paruppu podi"}, {"id": "2026", "chapterNo": "Chapter 10", "year": "2026", "category": "Global Footprint", "title": "Ready-to-Cook & Worldwide Exports", "lead": "Reaching dinner tables and container ports across 30+ international markets with certified food safety and authentic South Indian culinary craft.", "image": "/products/all-product/img-1.jpg", "alt": "Complete heritage range and global export collection"}];
+    let cartCount = 0;
+    let currentModalProduct = null;
+
+    // Theme Switcher
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      document.querySelectorAll('.theme-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.classList.contains('theme-' + theme));
+      });
+      try { localStorage.setItem('yg-palette-theme-v2', theme); } catch(e) {}
+    }
+
+    // Initialize Theme from localStorage
+    try {
+      const savedTheme = localStorage.getItem('yg-palette-theme-v2') || 'emerald';
+      setTheme(savedTheme);
+    } catch(e) {}
+
+    // Clean image path utility
+    function getCleanImg(img) {
+      if (!img) return 'logo.png';
+      return img.replace(/^\//, '');
+    }
+
+    // Render Products with YG FIRST, then VISMAYA
+    function renderProducts(list) {
+      const grid = document.getElementById('product-grid');
+      grid.innerHTML = '';
+      
+      const ygList = list.filter(p => !p.name.toLowerCase().includes('vismaya') && !p.slug.toLowerCase().includes('vismaya'));
+      const vismayaList = list.filter(p => p.name.toLowerCase().includes('vismaya') || p.slug.toLowerCase().includes('vismaya'));
+
+      function appendCard(p, isVismaya) {
+        const variant = (p.variants && p.variants[0]) || { price: 90, label: 'Standard' };
+        const mrpHtml = variant.mrp ? `<span class="mrp">₹${variant.mrp}</span>` : '';
+        const badgeText = p.bestseller ? 'Bestseller' : (p.glutenFree ? 'Gluten Free' : (p.format === 'cake' ? 'Gold Cake' : (isVismaya ? 'Vismaya Podi' : 'Artisanal Hing')));
+        const badgeClass = isVismaya ? 'vismaya' : (p.format === 'cake' ? 'gold' : '');
+        const imgSrc = getCleanImg(p.image);
+
+        const card = document.createElement('div');
+        card.className = 'product-card';
+        card.onclick = () => openModal(p);
+        card.innerHTML = `
+          <div class="product-image-wrap">
+            <span class="product-badge ${badgeClass}">${badgeText}</span>
+            <img src="${imgSrc}" alt="${p.name}" onerror="this.onerror=null; this.src='logo.png';" />
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">${p.name}</h3>
+            <p class="product-desc">${p.tagline || p.description || ''}</p>
+            <div class="product-variants">
+              ${(p.variants || []).map((v, i) => `<span class="variant-chip ${i === 0 ? 'active' : ''}">${v.label}</span>`).join('')}
+            </div>
+            <div class="product-price-row">
+              <div>
+                <span class="price">₹${variant.price}</span>
+                ${mrpHtml}
+              </div>
+              <button class="add-btn" onclick="event.stopPropagation(); addToCart('${p.name}')">Add +</button>
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      }
+
+      // 1. Render all Y.G products first
+      if (ygList.length > 0) {
+        const divHeader = document.createElement('div');
+        divHeader.className = 'catalog-divider';
+        divHeader.innerHTML = `
+          <h3>🌿 Y.G Asafoetida & Heritage Collection</h3>
+          <span>14 Premium Items • Estd. 1932</span>
+        `;
+        grid.appendChild(divHeader);
+        ygList.forEach(p => appendCard(p, false));
+      }
+
+      // 2. Render all Vismaya products after
+      if (vismayaList.length > 0) {
+        const divHeader2 = document.createElement('div');
+        divHeader2.className = 'catalog-divider';
+        divHeader2.innerHTML = `
+          <h3>🌶️ Vismaya Spice Podis & Traditional Millet Mixes</h3>
+          <span>17 Authentic Kitchen Essentials</span>
+        `;
+        grid.appendChild(divHeader2);
+        vismayaList.forEach(p => appendCard(p, true));
+      }
+    }
+
+    // Filter Products
+    function filterProducts(cat) {
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+
+      if (cat === 'all') {
+        renderProducts(allProducts);
+      } else if (cat === 'yg') {
+        renderProducts(allProducts.filter(p => !p.name.toLowerCase().includes('vismaya') && !p.slug.toLowerCase().includes('vismaya')));
+      } else if (cat === 'vismaya') {
+        renderProducts(allProducts.filter(p => p.name.toLowerCase().includes('vismaya') || p.slug.toLowerCase().includes('vismaya')));
+      }
+    }
+
+    // Product Modal
+    function openModal(p) {
+      currentModalProduct = p;
+      const modal = document.getElementById('product-modal');
+      document.getElementById('modal-img').src = getCleanImg(p.image);
+      document.getElementById('modal-title').innerText = p.name;
+      document.getElementById('modal-desc').innerText = p.description || p.tagline || '';
+      document.getElementById('modal-badge').innerText = p.glutenFree ? 'Gluten Free' : (p.bestseller ? 'Bestseller' : 'Authentic');
+      
+      const v = (p.variants && p.variants[0]) || { price: 90, label: 'Standard' };
+      document.getElementById('modal-price').innerText = `₹${v.price}`;
+
+      const vBox = document.getElementById('modal-variants');
+      vBox.innerHTML = (p.variants || []).map((vItem, i) => `
+        <span class="variant-chip ${i === 0 ? 'active' : ''}" onclick="selectModalVariant(this, ${vItem.price})">${vItem.label} - ₹${vItem.price}</span>
+      `).join('');
+
+      modal.classList.add('active');
+    }
+
+    function selectModalVariant(el, price) {
+      document.querySelectorAll('#modal-variants .variant-chip').forEach(c => c.classList.remove('active'));
+      el.classList.add('active');
+      document.getElementById('modal-price').innerText = `₹${price}`;
+    }
+
+    function closeModal() {
+      document.getElementById('product-modal').classList.remove('active');
+    }
+
+    // =========================================================================
+    // 10 HERITAGE STORY CHAPTERS DATA (AUTHENTIC PHOTOS & NARRATIVES)
+    // =========================================================================
+    const timelineChapters = [
+      {
+        chapterNo: 'Chapter 01',
+        year: '1931',
+        category: 'The Genesis',
+        title: 'A Humble Beginning',
+        lead: "YG began in 1931 through our grandfather's initiative, procuring authentic Ferula oleoresin tears to establish culinary truth in Tirunelveli.",
+        quote: "Our journey began with a vision, dedication, and a commitment to quality.",
+        image: 'images/story-1-shop-1932.jpg'
+      },
+      {
+        chapterNo: 'Chapter 02',
+        year: '1932',
+        category: 'Brand Conception',
+        title: 'The Birth of YG',
+        lead: "The business received the name YG, perfecting standardized hand-compounded recipes with stone mortar pits on South Car Street.",
+        quote: "Two letters that came to define genuine aromatic trust.",
+        image: 'logo.png'
+      },
+      {
+        chapterNo: 'Chapter 03',
+        year: '1980',
+        category: 'Formulation Breakthrough',
+        title: 'Cake Powder',
+        lead: "A major milestone in the development of cake powder products, engineering controlled milling that preserved essential oils and delicate baking texture.",
+        quote: "Preserving volatile resin terpenes for authentic South Indian taste.",
+        image: 'images/story-2-kitchen-colorful.jpg'
+      },
+      {
+        chapterNo: 'Chapter 04',
+        year: '1982',
+        category: 'Pioneering Sachet',
+        title: "India's First Sachet",
+        lead: "Introduction of India's first sachet, according to our brand history, locking in fresh aromatic fragrance in affordable single-use packs.",
+        quote: "Freshness sealed in every single pinch.",
+        image: 'images/story-chapter-3-sachet.jpg'
+      },
+      {
+        chapterNo: 'Chapter 05',
+        year: '2013',
+        category: 'Third Generation',
+        title: 'Third Generation Enters',
+        lead: "The third generation joined the business, continuing the family's entrepreneurial legacy while adopting international food safety standards.",
+        quote: "Bridging ancestral wisdom with modern global standards.",
+        image: 'images/story-3-modern-colorful.jpg'
+      },
+      {
+        chapterNo: 'Chapter 06',
+        year: '2014',
+        category: 'Category Research',
+        title: 'Exploring Appalam',
+        lead: "The business began studying and exploring the Appalam category, stone-grinding urad dal flour blended with signature hing and sun-drying in open courtyards.",
+        quote: "Pure ingredients, golden sun-dried perfection.",
+        image: 'images/story-hero-harvest.jpg'
+      },
+      {
+        chapterNo: 'Chapter 07',
+        year: '2016',
+        category: 'Wellness Expansion',
+        title: 'Traditional Health Mix',
+        lead: "Formulating multigrain Sathu Maavu health mix made from slow-roasted indigenous millets, pulses, and nuts for daily family vitality.",
+        quote: "Nourishment passed down through South Indian mothers.",
+        image: 'images/story-chapter-5-health-mix.jpg'
+      },
+      {
+        chapterNo: 'Chapter 08',
+        year: '2019',
+        category: 'Ancient Grains',
+        title: 'Ancient Millet Innovations',
+        lead: "Pioneering nutrient-dense traditional blends including multi-millet adai dosa mix, kodo pongal, and kodo sambar mixes.",
+        quote: "Reviving heritage millets for today's wellness.",
+        image: 'products/multi-millet-adai-dosa-mix/img-1.jpg'
+      },
+      {
+        chapterNo: 'Chapter 09',
+        year: '2025',
+        category: 'Spice Heritage',
+        title: 'Vismaya Rice Powders & Podis',
+        lead: "Launching the Vismaya culinary line of roasted paruppu podi, traditional idli podi, ellu podi, and nourishing moringa and pirandai podis.",
+        quote: "Homestyle taste made with cold-ground pure spices.",
+        image: 'images/story-chapter-6-vismaya-podis.jpg'
+      },
+      {
+        chapterNo: 'Chapter 10',
+        year: '2026',
+        category: 'Global Footprint',
+        title: 'Ready-to-Cook & Worldwide Exports',
+        lead: "Reaching dinner tables and container ports across 30+ international markets with certified food safety and authentic South Indian culinary craft.",
+        quote: "From Tirunelveli streets to global dining tables.",
+        image: 'images/story-chapter-7-ready-to-cook.jpg'
+      }
+    ];
+
+    // =========================================================================
+    // 9 REQUESTED 3D DELIVERY & CRAFT SCENARIOS (FOR CONNECTING ARROWS)
+    // =========================================================================
+    const SCENARIOS = [
+      {
+        num: '01',
+        era: '1931 • Heritage Craft',
+        title: 'Rendu Patti Home Preparation',
+        desc: 'Two traditional grandmothers (pattis) in South Indian sarees hand-pounding authentic hing in a stone mortar at home.',
+        descTa: 'இரண்டு பாட்டிகள் பாரம்பரிய முறைப்படி வீட்டு உரலில் தூய பெருங்காயத்தை இடித்தல்.',
+        img: 'images/journey/stage1-grandmothers.jpg',
+        cutout: 'images/journey/stage1-pattis-cutout.png',
+        w: 80,
+        h: 70,
+        soundLabel: '🔊 Ambient: Stone Mortar Grinding Rhythm',
+        soundType: 'mortar'
+      },
+      {
+        num: '02',
+        era: '1932 • Foot Courier',
+        title: 'Traditional Walking Delivery',
+        desc: 'Barefoot delivery courier in a dhoti walking village lanes carrying a traditional clay pot and cloth shoulder sack.',
+        descTa: 'அந்தக் காலத்து மனிதர் வேட்டி கட்டி மண்பானை மற்றும் பையுடன் நடந்து சென்று பெருங்காயம் கொண்டு சேர்த்தல்.',
+        img: 'images/journey/stage2-walking.jpg',
+        cutout: 'images/journey/stage2-walking-cutout.png',
+        w: 64,
+        h: 72,
+        soundLabel: '🔊 Ambient: Village Footsteps & Breeze',
+        soundType: 'footsteps'
+      },
+      {
+        num: '03',
+        era: '1940s • Swift Wings',
+        title: 'Carrier Pigeon Dispatch',
+        desc: 'Swift carrier pigeon soaring with a sealed spice scroll and parcel across towns.',
+        descTa: 'புறா தனது சிறகுகளில் தூய பெருங்காய பொட்டலத்தை சுமந்து பறந்து கொண்டு சேர்த்தல்.',
+        img: 'images/journey/stage3-pigeon-v3.jpg',
+        cutout: 'images/journey/stage3-pigeon-v3.png',
+        w: 80,
+        h: 58,
+        soundLabel: '🔊 Ambient: Pigeon Wing Flutters & Wind',
+        soundType: 'wings'
+      },
+      {
+        num: '04',
+        era: '1950s • Pedal Power',
+        title: 'Vintage Cycle Courier',
+        desc: 'Delivery courier riding a vintage black bicycle with front basket and rear wooden crate full of spice boxes.',
+        descTa: 'சைக்கிளில் மரப் பெட்டிகளுடன் தெருத்தெருவாக சென்று பெருங்காயம் டெலிவரி செய்தல்.',
+        img: 'images/journey/stage4-bicycle-v4.png',
+        cutout: 'images/journey/stage4-bicycle-v4.png',
+        w: 78,
+        h: 82,
+        soundLabel: '🔊 Ambient: Vintage Bicycle Bell Ding',
+        soundType: 'bell'
+      },
+      {
+        num: '05',
+        era: '1970s • Rail Freight',
+        title: 'Steam Train Cargo Freight',
+        desc: 'Vintage locomotive steam train chugging with proud smoke puffs, hauling wooden freight wagons loaded with hing.',
+        descTa: 'நீராவி ரயில் புகையைக் கக்கிக் கொண்டு மாநிலங்கள் தோறும் சரக்குகளை கொண்டு சேர்த்தல்.',
+        img: 'images/journey/stage5-train-v3.jpg',
+        cutout: 'images/journey/stage5-train-v3.png',
+        w: 96,
+        h: 52,
+        soundLabel: '🔊 Ambient: Locomotive Steam Chug & Whistle',
+        soundType: 'train'
+      },
+      {
+        num: '06',
+        era: '1990s • Express Dispatch',
+        title: 'Motorbike Delivery Rider',
+        desc: 'Swift motorcycle delivery rider with helmet and parcel carrier box navigating streets for express dispatches.',
+        descTa: 'பைக் ரைடர் ஸ்பீடாக சென்று டோர் டெலிவரி செய்தல்.',
+        img: 'images/journey/stage6-motorbike.jpg',
+        cutout: 'images/journey/stage6-motorbike-cutout.png',
+        w: 78,
+        h: 68,
+        soundLabel: '🔊 Ambient: Motorcycle Engine Purr & Throttle',
+        soundType: 'motorbike'
+      },
+      {
+        num: '07',
+        era: '2010s • Logistics Fleet',
+        title: 'Modern Delivery Van / Car',
+        desc: 'Eco-friendly branded delivery vans and cars cruising across national highways supplying homes & stores.',
+        descTa: 'டெலிவரி வேன் மற்றும் கார்களில் நாடு முழுவதும் உள்ள கடைகளுக்கும் வீடுகளுக்கும் விநியோகம்.',
+        img: 'images/journey/stage7-van-v3.jpg',
+        cutout: 'images/journey/stage7-van-v3.png',
+        w: 84,
+        h: 74,
+        soundLabel: '🔊 Ambient: Modern Highway Logistics Fleet',
+        soundType: 'van'
+      },
+      {
+        num: '08',
+        era: '2020s • Smart Commerce',
+        title: '1-Tap Mobile App Booking',
+        desc: 'Customer ordering pure Y.G Asafoetida with 1-tap on a 3D smartphone app with real-time dispatch tracking.',
+        descTa: 'நமது மொபைல் ஆப் மூலம் ஒரே கிளிக்கில் பெருங்காயம் ஆர்டர் செய்து லைவ் டிராக்கிங் செய்தல்.',
+        img: 'images/journey/stage8-mobile-v3.jpg',
+        cutout: 'images/journey/stage8-mobile-v3.png',
+        w: 76,
+        h: 76,
+        soundLabel: '🔊 Ambient: Smartphone Order Ring & Confirmation',
+        soundType: 'ping'
+      },
+      {
+        num: '09',
+        era: 'Culinary Fulfillment',
+        title: 'Pure Kitchen Cooking',
+        desc: 'Sprinkling a fragrant pinch of pure golden hing into a sizzling brass kadai of hot South Indian sambar tadka.',
+        descTa: 'கடைசியாக சமையலறைக்கு வந்து சூடான சாம்பாரில் தூய பெருங்காயத்தை தாளித்து மணம் வீசச் செய்தல்.',
+        img: 'images/journey/stage9-kitchen-v3.jpg',
+        cutout: 'images/journey/stage9-kitchen-v3.png',
+        w: 72,
+        h: 84,
+        soundLabel: '🔊 Ambient: Sizzling Brass Kadai Tadka & Aroma',
+        soundType: 'sizzle'
+      }
+    ];
+
+    // =========================================================================
+    // RENDER 10 CHAPTERS & 9 CONNECTING 3D ARROW VIDEO BLOCKS
+    // =========================================================================
+    function renderStoryFlow() {
+      const container = document.getElementById('story-flow-container');
+      if (!container) return;
+      container.innerHTML = '';
+
+      timelineChapters.forEach((ch, idx) => {
+        // 1. Chapter Card Row (Alternating left & right)
+        const isLeft = (idx % 2 === 0);
+        const row = document.createElement('div');
+        row.className = `chapter-row ${isLeft ? 'left-oriented' : 'right-oriented'}`;
+        
+        row.innerHTML = `
+          <div class="chapter-col-card">
+            <article class="chapter-card-item">
+              <div class="chapter-card-hero">
+                <img src="${ch.image}" alt="${ch.title}" onerror="this.src='logo.png'" />
+                <div class="chapter-badge-year">${ch.year}</div>
+                <div class="chapter-badge-cat">${ch.category}</div>
+              </div>
+              <div class="chapter-card-content">
+                <div class="chapter-num-tag">${ch.chapterNo} • Milestone</div>
+                <h3 class="chapter-card-title">${ch.title}</h3>
+                <p class="chapter-card-lead">${ch.lead}</p>
+                <div class="chapter-card-quote">
+                  <span>❝</span>
+                  <span>${ch.quote}</span>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="chapter-col-empty"></div>
+        `;
+        container.appendChild(row);
+
+        // 2. Connecting Arrow with 3D Video Scenario (between chapter idx and idx+1)
+        if (idx < timelineChapters.length - 1) {
+          const scenario = SCENARIOS[idx % SCENARIOS.length];
+          const isLeftToRight = isLeft;
+
+          const arrowBlock = document.createElement('div');
+          arrowBlock.className = 'story-arrow-block';
+
+          // SVG dashed curve
+          const svgPath = isLeftToRight
+            ? 'M 140 4 C 240 8, 340 36, 360 84'
+            : 'M 360 4 C 260 8, 160 36, 140 84';
+
+          arrowBlock.innerHTML = `
+            <div class="story-arrow-svg-wrap">
+              <svg viewBox="0 0 500 90" fill="none" style="overflow: visible; width: 100%; height: 90px;">
+                <defs>
+                  <marker id="arrow-head-${idx}" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+                    <path d="M 1 2 L 8 5 L 1 8 z" fill="#059669"></path>
+                  </marker>
+                </defs>
+                <path id="offline-arrow-path-${idx}" d="${svgPath}" stroke="#059669" stroke-width="2.5" stroke-dasharray="6 4" stroke-linecap="round" marker-end="url(#arrow-head-${idx})"></path>
+
+                <!-- 3D Vehicle moving directly on the arrow path from top to bottom! Pure animated rider — NO video modal popup -->
+                <g class="yg-svg-vehicle-rider" id="offline-rider-${idx}" style="cursor: default; pointer-events: none; filter: drop-shadow(0 8px 14px rgba(0,0,0,0.35));">
+                  <title>${scenario.title}</title>
+                  <image href="${scenario.cutout}" x="${-scenario.w/2}" y="${-scenario.h/2}" width="${scenario.w}" height="${scenario.h}" preserveAspectRatio="xMidYMid meet"></image>
+                </g>
+              </svg>
+            </div>
+          `;
+          container.appendChild(arrowBlock);
+        }
+      });
+    }
+
+    // =========================================================================
+    // 3D VIDEO THEATER MODAL ENGINE (KEN BURNS + WEB AUDIO + MOVIE MODE)
+    // =========================================================================
+    let currentVideoIdx = 0;
+    let videoTimer = null;
+    let videoElapsed = 0;
+    const VIDEO_DURATION = 10; // seconds per scene
+    let isVideoPlaying = false;
+    let movieAutoAdvance = true;
+    let audioContext = null;
+    let isAudioMuted = false;
+    let activeOscillators = [];
+
+    // Synthesize atmospheric audio using Web Audio API
+    function playSyntheticSound(type) {
+      if (isAudioMuted) return;
+      try {
+        if (!audioContext) {
+          audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        }
+        if (audioContext.state === 'suspended') {
+          audioContext.resume();
+        }
+
+        stopSyntheticSound();
+
+        // 1. Classical Tanpura Drone (Sa & Pa)
+        const osc1 = audioContext.createOscillator();
+        const osc2 = audioContext.createOscillator();
+        const droneGain = audioContext.createGain();
+        osc1.type = 'triangle';
+        osc1.frequency.setValueAtTime(130.81, audioContext.currentTime); // C3 (Sa)
+        osc2.type = 'sine';
+        osc2.frequency.setValueAtTime(196.00, audioContext.currentTime); // G3 (Pa)
+        droneGain.gain.setValueAtTime(0.04, audioContext.currentTime);
+
+        osc1.connect(droneGain);
+        osc2.connect(droneGain);
+        droneGain.connect(audioContext.destination);
+        osc1.start();
+        osc2.start();
+        activeOscillators.push(osc1, osc2);
+
+        // 2. Contextual Sound Effect
+        if (type === 'mortar') {
+          // Low stone rhythmic thud
+          const thud = audioContext.createOscillator();
+          const tGain = audioContext.createGain();
+          thud.type = 'sine';
+          thud.frequency.setValueAtTime(80, audioContext.currentTime);
+          thud.frequency.exponentialRampToValueAtTime(30, audioContext.currentTime + 0.4);
+          tGain.gain.setValueAtTime(0.2, audioContext.currentTime);
+          tGain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.4);
+          thud.connect(tGain);
+          tGain.connect(audioContext.destination);
+          thud.start();
+          thud.stop(audioContext.currentTime + 0.45);
+        } else if (type === 'bell') {
+          // Bicycle bell ding-ding
+          const bell = audioContext.createOscillator();
+          const bGain = audioContext.createGain();
+          bell.type = 'triangle';
+          bell.frequency.setValueAtTime(1760, audioContext.currentTime);
+          bGain.gain.setValueAtTime(0.25, audioContext.currentTime);
+          bGain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.6);
+          bell.connect(bGain);
+          bGain.connect(audioContext.destination);
+          bell.start();
+          bell.stop(audioContext.currentTime + 0.65);
+        } else if (type === 'ping') {
+          // Smartphone order confirmation chime
+          const p = audioContext.createOscillator();
+          const pGain = audioContext.createGain();
+          p.type = 'sine';
+          p.frequency.setValueAtTime(880, audioContext.currentTime);
+          p.frequency.setValueAtTime(1320, audioContext.currentTime + 0.12);
+          pGain.gain.setValueAtTime(0.18, audioContext.currentTime);
+          pGain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.5);
+          p.connect(pGain);
+          pGain.connect(audioContext.destination);
+          p.start();
+          p.stop(audioContext.currentTime + 0.55);
+        } else if (type === 'sizzle') {
+          // White noise buffer for sizzling tadka
+          const bufferSize = audioContext.sampleRate * 2;
+          const noiseBuffer = audioContext.createBuffer(1, bufferSize, audioContext.sampleRate);
+          const output = noiseBuffer.getChannelData(0);
+          for (let i = 0; i < bufferSize; i++) {
+            output[i] = Math.random() * 2 - 1;
+          }
+          const whiteNoise = audioContext.createBufferSource();
+          whiteNoise.buffer = noiseBuffer;
+          whiteNoise.loop = true;
+          const filter = audioContext.createBiquadFilter();
+          filter.type = 'bandpass';
+          filter.frequency.setValueAtTime(3200, audioContext.currentTime);
+          filter.Q.setValueAtTime(2, audioContext.currentTime);
+          const sGain = audioContext.createGain();
+          sGain.gain.setValueAtTime(0.06, audioContext.currentTime);
+          whiteNoise.connect(filter);
+          filter.connect(sGain);
+          sGain.connect(audioContext.destination);
+          whiteNoise.start();
+          activeOscillators.push(whiteNoise);
+        }
+      } catch (e) {
+        console.log('Web Audio synthesis note:', e);
+      }
+    }
+
+    function stopSyntheticSound() {
+      activeOscillators.forEach(o => {
+        try { o.stop(); } catch (e) {}
+        try { o.disconnect(); } catch (e) {}
+      });
+      activeOscillators = [];
+    }
+
+    function open3dVideoModal(index) {
+      currentVideoIdx = (index + SCENARIOS.length) % SCENARIOS.length;
+      const modal = document.getElementById('video-theater-modal');
+      if (!modal) return;
+
+      loadVideoScene(currentVideoIdx);
+      modal.classList.add('active');
+      startVideoPlayback();
+    }
+
+    function loadVideoScene(idx) {
+      const sc = SCENARIOS[idx];
+      document.getElementById('th-era').innerText = sc.era;
+      document.getElementById('th-title').innerText = `${sc.num}. ${sc.title}`;
+      
+      const img = document.getElementById('th-screen-img');
+      img.classList.remove('ken-burns-active');
+      img.src = sc.img;
+      setTimeout(() => img.classList.add('ken-burns-active'), 50);
+
+      document.getElementById('th-cap-era').innerText = `SCENARIO ${sc.num} • ${sc.era.split('•')[0].trim()}`;
+      document.getElementById('th-sound-label').innerText = sc.soundLabel;
+      document.getElementById('th-cap-en').innerText = sc.desc;
+      document.getElementById('th-cap-ta').innerText = sc.descTa;
+
+      videoElapsed = 0;
+      updateVideoProgressUI();
+      playSyntheticSound(sc.soundType);
+    }
+
+    function startVideoPlayback() {
+      isVideoPlaying = true;
+      document.getElementById('th-play-icon').innerText = '❚❚';
+      document.getElementById('th-play-text').innerText = 'Pause';
+      document.getElementById('th-wave-bars').style.opacity = '1';
+
+      if (videoTimer) clearInterval(videoTimer);
+      videoTimer = setInterval(() => {
+        videoElapsed += 0.1;
+        if (videoElapsed >= VIDEO_DURATION) {
+          videoElapsed = VIDEO_DURATION;
+          updateVideoProgressUI();
+          if (movieAutoAdvance) {
+            // Smoothly auto advance to the next scene
+            stepVideoScene(1);
+          } else {
+            pauseVideoPlayback();
+          }
+        } else {
+          updateVideoProgressUI();
+        }
+      }, 100);
+    }
+
+    function pauseVideoPlayback() {
+      isVideoPlaying = false;
+      document.getElementById('th-play-icon').innerText = '▶';
+      document.getElementById('th-play-text').innerText = 'Play';
+      document.getElementById('th-wave-bars').style.opacity = '0.3';
+      if (videoTimer) clearInterval(videoTimer);
+      stopSyntheticSound();
+    }
+
+    function toggleVideoPlay() {
+      if (isVideoPlaying) {
+        pauseVideoPlayback();
+      } else {
+        startVideoPlayback();
+        playSyntheticSound(SCENARIOS[currentVideoIdx].soundType);
+      }
+    }
+
+    function stepVideoScene(delta) {
+      currentVideoIdx = (currentVideoIdx + delta + SCENARIOS.length) % SCENARIOS.length;
+      loadVideoScene(currentVideoIdx);
+      if (isVideoPlaying) {
+        startVideoPlayback();
+      }
+    }
+
+    function updateVideoProgressUI() {
+      const pct = Math.min(100, (videoElapsed / VIDEO_DURATION) * 100);
+      document.getElementById('th-progress').style.width = `${pct}%`;
+      const curSec = Math.floor(videoElapsed);
+      document.getElementById('th-timer').innerText = `00:0${curSec} / 00:${VIDEO_DURATION}`;
+    }
+
+    function seekVideoProgress(e) {
+      const rect = e.currentTarget.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const pct = Math.max(0, Math.min(1, clickX / rect.width));
+      videoElapsed = pct * VIDEO_DURATION;
+      updateVideoProgressUI();
+    }
+
+    function toggleMovieAutoAdvance() {
+      movieAutoAdvance = !movieAutoAdvance;
+      const btn = document.getElementById('th-auto-btn');
+      if (movieAutoAdvance) {
+        btn.classList.add('active');
+        document.getElementById('th-auto-text').innerText = 'Movie Mode: Autoplay ON';
+      } else {
+        btn.classList.remove('active');
+        document.getElementById('th-auto-text').innerText = 'Movie Mode: Autoplay OFF';
+      }
+    }
+
+    function playFull3dMovie() {
+      movieAutoAdvance = true;
+      document.getElementById('th-auto-btn').classList.add('active');
+      document.getElementById('th-auto-text').innerText = 'Movie Mode: Autoplay ON';
+      open3dVideoModal(0);
+    }
+
+    function toggleAudioMute() {
+      isAudioMuted = !isAudioMuted;
+      const text = document.getElementById('th-sound-text');
+      const btn = document.getElementById('th-sound-btn');
+      if (isAudioMuted) {
+        text.innerText = 'Sound: MUTED';
+        btn.style.color = '#ef4444';
+        stopSyntheticSound();
+      } else {
+        text.innerText = 'Sound: ON';
+        btn.style.color = '#fbbf24';
+        playSyntheticSound(SCENARIOS[currentVideoIdx].soundType);
+      }
+    }
+
+    function toggleFullscreenTheater() {
+      const container = document.querySelector('.theater-container');
+      if (!document.fullscreenElement) {
+        if (container.requestFullscreen) container.requestFullscreen();
+      } else {
+        if (document.exitFullscreen) document.exitFullscreen();
+      }
+    }
+
+    function close3dVideoModal() {
+      pauseVideoPlayback();
+      stopSyntheticSound();
+      const modal = document.getElementById('video-theater-modal');
+      if (modal) modal.classList.remove('active');
+    }
+
+    function onModalBackdropClick(e) {
+      if (e.target.id === 'video-theater-modal') {
+        close3dVideoModal();
+      }
+    }
+
+    // Keyboard controls (Space = play/pause, Esc = close, Left/Right = prev/next)
+    window.addEventListener('keydown', (e) => {
+      const modal = document.getElementById('video-theater-modal');
+      if (!modal || !modal.classList.contains('active')) return;
+      if (e.key === 'Escape') close3dVideoModal();
+      if (e.key === ' ') { e.preventDefault(); toggleVideoPlay(); }
+      if (e.key === 'ArrowRight') stepVideoScene(1);
+      if (e.key === 'ArrowLeft') stepVideoScene(-1);
+    });
+
+    // Initial render of Products & 10-Chapter Story Flow
+    renderProducts(allProducts);
+    renderStoryFlow();
+
+    // 60FPS smooth movement along arrow path from top to bottom
+    const offlineRiders = [];
+    setTimeout(() => {
+      SCENARIOS.forEach((sc, idx) => {
+        const path = document.getElementById(`offline-arrow-path-${idx}`);
+        const g = document.getElementById(`offline-rider-${idx}`);
+        if (path && g) {
+          offlineRiders.push({ path, g, isPaused: false });
+          g.addEventListener('mouseenter', () => { offlineRiders[idx].isPaused = true; });
+          g.addEventListener('mouseleave', () => { offlineRiders[idx].isPaused = false; });
+        }
+      });
+    }, 100);
+
+    const OFFLINE_DURATION = 5500;
+    let offlineAnimStart = null;
+    function runOfflineMovement(ts) {
+      if (!offlineAnimStart) offlineAnimStart = ts;
+      const elap = ts - offlineAnimStart;
+      const cycle = (elap % OFFLINE_DURATION) / OFFLINE_DURATION;
+      const progress = 0.5 - 0.5 * Math.cos(cycle * 2 * Math.PI);
+
+      offlineRiders.forEach(r => {
+        if (r.isPaused) return;
+        try {
+          const totalLen = r.path.getTotalLength();
+          if (totalLen > 0) {
+            const pt = r.path.getPointAtLength(progress * totalLen);
+            r.g.setAttribute('transform', `translate(${pt.x}, ${pt.y})`);
+          }
+        } catch(e) {}
+      });
+      requestAnimationFrame(runOfflineMovement);
+    }
+    requestAnimationFrame(runOfflineMovement);
+  </script>
+</body>
+</html>

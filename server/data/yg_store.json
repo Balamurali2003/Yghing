@@ -1,0 +1,103 @@
+{
+  "products": [],
+  "product_variants": [],
+  "orders": [],
+  "order_items": [],
+  "reviews": [
+    {
+      "id": "rev-seed-1",
+      "slug": "gold-asafoetida-powder",
+      "rating": 5,
+      "title": "Incomparable Traditional Aroma",
+      "comment": "Just a pinch transforms the rasam and sambar completely. Unmatched authenticity and freshness. Truly heritage quality!",
+      "name": "Meenakshi Sundaram",
+      "city": "Chennai",
+      "email": null,
+      "phone": null,
+      "contact_opt_in": 1,
+      "created_at": 1792906343353,
+      "status": "published"
+    },
+    {
+      "id": "rev-seed-2",
+      "slug": "gold-asafoetida-powder",
+      "rating": 5,
+      "title": "Best Hing in South India",
+      "comment": "We have been using Y.G for three generations. The gold powder has that deep, rounded compound aroma without any bitter aftertaste.",
+      "name": "Venkatesh Raghavan",
+      "city": "Tirunelveli",
+      "email": null,
+      "phone": null,
+      "contact_opt_in": 1,
+      "created_at": 1792387943353,
+      "status": "published"
+    },
+    {
+      "id": "rev-seed-3",
+      "slug": "gold-asafoetida-powder",
+      "rating": 5,
+      "title": "Airtight packaging is excellent",
+      "comment": "Arrived fresh and tightly sealed. Dissolves seamlessly in hot ghee tempering.",
+      "name": "Ananya Sharma",
+      "city": "Bengaluru",
+      "email": null,
+      "phone": null,
+      "contact_opt_in": 0,
+      "created_at": 1791869543353,
+      "status": "published"
+    },
+    {
+      "id": "rev-seed-4",
+      "slug": "gluten-free-asafoetida-powder",
+      "rating": 5,
+      "title": "Life-saver for Celiac Diet",
+      "comment": "Finally an authentic hing without wheat flour or maida. Clean aroma, pure taste, and completely gut-friendly.",
+      "name": "Dr. Shalini Rao",
+      "city": "Hyderabad",
+      "email": null,
+      "phone": null,
+      "contact_opt_in": 1,
+      "created_at": 1792733543353,
+      "status": "published"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-seed-1",
+      "slug": "gold-asafoetida-powder",
+      "question": "How should I store the asafoetida powder to preserve the aroma?",
+      "answer": "Keep in the airtight container provided, away from direct moisture and sunlight. Do not keep open next to other spices as its aroma is very potent.",
+      "asked_by": "Kavitha S.",
+      "answered_by": "Y.G Quality Team",
+      "created_at": 1791437543353,
+      "answered_at": 1791523943353,
+      "status": "published"
+    },
+    {
+      "id": "q-seed-2",
+      "slug": "gold-asafoetida-powder",
+      "question": "How much powder is recommended per serving of sambar or dal?",
+      "answer": "A pinch (approx. 1/8 to 1/4 teaspoon) tempered in hot ghee or sesame oil is sufficient for 4-6 servings.",
+      "asked_by": "Ramesh P.",
+      "answered_by": "Y.G Culinary Advisor",
+      "created_at": 1791955943353,
+      "answered_at": 1792042343353,
+      "status": "published"
+    },
+    {
+      "id": "q-seed-3",
+      "slug": "gluten-free-asafoetida-powder",
+      "question": "Does this contain any traces of wheat or gluten-bearing starches?",
+      "answer": "No. Our gluten-free asafoetida is formulated using non-gluten starches and processed on dedicated, tested equipment.",
+      "asked_by": "Deepa N.",
+      "answered_by": "Y.G Quality Assurance",
+      "created_at": 1792301543353,
+      "answered_at": 1792387943353,
+      "status": "published"
+    }
+  ],
+  "tickets": [],
+  "stock_alerts": [],
+  "promos": [],
+  "recipes": []
+}

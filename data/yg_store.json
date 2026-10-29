@@ -1,0 +1,1650 @@
+{
+    "users": [
+        {
+            "id": "usr-super-1",
+            "username": "admin",
+            "email": "admin@yghing.com",
+            "name": "Super Administrator",
+            "role": "Super Admin",
+            "salt": "yg_auth_salt_1932",
+            "passwordHash": "809eb7d1b1f955a3a003f018f8edec1fd79527f7cec7d28b7dd544a27e35d3b6",
+            "isActive": true,
+            "createdAt": 1729000000000,
+            "lastLogin": null
+        },
+        {
+            "id": "usr-prod-2",
+            "username": "product_lead",
+            "email": "products@yghing.com",
+            "name": "Culinary Master Blender",
+            "role": "Product Manager",
+            "salt": "yg_auth_salt_1932",
+            "passwordHash": "c5e219662b2e882e3532f7902434fa081274534f5904910cf9dbfb3df5d688cf",
+            "isActive": true,
+            "createdAt": 1729000000000,
+            "lastLogin": null
+        },
+        {
+            "id": "usr-order-3",
+            "username": "dispatch_lead",
+            "email": "orders@yghing.com",
+            "name": "Fulfillment Coordinator",
+            "role": "Order Manager",
+            "salt": "yg_auth_salt_1932",
+            "passwordHash": "c5e219662b2e882e3532f7902434fa081274534f5904910cf9dbfb3df5d688cf",
+            "isActive": true,
+            "createdAt": 1729000000000,
+            "lastLogin": null
+        }
+    ],
+    "cms": {
+        "announcement": "FREE SHIPPING ACROSS INDIA ON ORDERS ABOVE ₹499 · DIRECT FROM TIRUNELVELI ",
+        "hero": {
+            "eyebrow": "Heritage Pure Compounded Hing · Estd. 1932",
+            "title": "Stone-Compounded in Tirunelveli for Nine Decades",
+            "subtitle": "Procured from alpine mountain roots, compounded on traditional granite rollers, and sealed fresh for authentic South Indian kitchens worldwide."
+        },
+        "contact": {
+            "companyName": "Mayil Agro Foods",
+            "brandName": "Y.G Asafoetida",
+            "addressLine1": "1/303, M.K. Nagar, near HP fuel station",
+            "addressLine2": "Tenkasi - Tirunelveli Main Road",
+            "city": "Tirunelveli",
+            "pin": "627012",
+            "state": "Tamil Nadu",
+            "telephone": "0462 - 233 5555",
+            "mobile": "+91 7200622221",
+            "salesDesk": "+91 790 456 7979",
+            "salesEmail": "sales@yghing.com",
+            "exportEmail": "exports@yghing.com",
+            "b2bEmail": "b2bsales@yghing.com",
+            "supportEmail": "support@yghing.com"
+        },
+        "storyTimeline": [
+            {
+                "id": "1931",
+                "chapterNo": "Chapter 01",
+                "year": "1931",
+                "category": "The Genesis",
+                "title": "A Humble Beginning",
+                "lead": "YG began in 1931 through our grandfather's initiative, procuring authentic Ferula oleoresin tears to establish culinary truth in Tirunelveli.",
+                "quote": "Our journey began with a vision, dedication, and a commitment to quality.",
+                "image": "/story/1931-founder.jpg",
+                "alt": "Vintage illustration of the founder weighing pure spices on brass balance scales"
+            },
+            {
+                "id": "1932",
+                "chapterNo": "Chapter 02",
+                "year": "1932",
+                "category": "Brand Conception",
+                "title": "The Birth of YG",
+                "lead": "The business received the name YG, perfecting standardized hand-compounded recipes with stone mortar pits on South Car Street.",
+                "quote": "Two letters that came to define genuine aromatic trust.",
+                "image": "/logo.png",
+                "alt": "Prominent YG logo treatment on archival seal",
+                "isLogo": true
+            },
+            {
+                "id": "1980",
+                "chapterNo": "Chapter 03",
+                "year": "1980",
+                "category": "Formulation Breakthrough",
+                "title": "Cake Powder",
+                "lead": "A major milestone in the development of cake powder products, engineering controlled milling that preserved essential oils and delicate baking texture.",
+                "image": "/story/1980-cake-powder.jpg",
+                "alt": "Cake powder, a bowl of powder, and a freshly baked cake"
+            },
+            {
+                "id": "1982",
+                "chapterNo": "Chapter 04",
+                "year": "1982",
+                "category": "Pioneering Sachet",
+                "title": "India's First Sachet",
+                "lead": "Introduction of India's first sachet, according to our brand history, locking in fresh aromatic fragrance in affordable single-use packs.",
+                "historicClaim": true,
+                "image": "/story/1982-sachet.jpg",
+                "alt": "Vintage 1982 YG sachet packaging on antique wood"
+            },
+            {
+                "id": "2013",
+                "chapterNo": "Chapter 05",
+                "year": "2013",
+                "category": "Third Generation",
+                "title": "Third Generation Enters",
+                "lead": "The third generation joined the business, continuing the family's entrepreneurial legacy while adopting international food safety standards.",
+                "image": "/story/2013-generations.jpg",
+                "alt": "Illustration showing generational connection and craft mentorship"
+            },
+            {
+                "id": "2014",
+                "chapterNo": "Chapter 06",
+                "year": "2014",
+                "category": "Category Research",
+                "title": "Exploring Appalam",
+                "lead": "The business began studying and exploring the Appalam category, stone-grinding urad dal flour blended with signature hing and sun-drying in open courtyards.",
+                "image": "/story/2014-appalam.jpg",
+                "alt": "Traditional sun-dried appalam discs in a heritage courtyard"
+            },
+            {
+                "id": "2016",
+                "chapterNo": "Chapter 07",
+                "year": "2016",
+                "category": "Wellness Expansion",
+                "title": "Traditional Health Mix",
+                "lead": "Formulating multigrain Sathu Maavu health mix made from slow-roasted indigenous millets, pulses, and nuts for daily family vitality.",
+                "image": "/products/traditional-health-mix/img-1.jpg",
+                "alt": "Traditional Health Mix Sathu Maavu packaging"
+            },
+            {
+                "id": "2019",
+                "chapterNo": "Chapter 08",
+                "year": "2019",
+                "category": "Ancient Grains",
+                "title": "Ancient Millet Innovations",
+                "lead": "Pioneering nutrient-dense traditional blends including multi-millet adai dosa mix, kodo pongal, and kodo sambar mixes.",
+                "image": "/products/multi-millet-adai-dosa-mix/img-1.jpg",
+                "alt": "Multi-millet adai dosa and grain mix"
+            },
+            {
+                "id": "2025",
+                "chapterNo": "Chapter 09",
+                "year": "2025",
+                "category": "Spice Heritage",
+                "title": "Vismaya Rice Powders & Podis",
+                "lead": "Launching the Vismaya culinary line of roasted paruppu podi, traditional idli podi, ellu podi, and nourishing moringa and pirandai podis.",
+                "image": "/products/tirunelveli-special-paruppu-podi/img-1.jpg",
+                "alt": "Vismaya authentic Tirunelveli paruppu podi"
+            },
+            {
+                "id": "2026",
+                "chapterNo": "Chapter 10",
+                "year": "2026",
+                "category": "Global Footprint",
+                "title": "Ready-to-Cook & Worldwide Exports",
+                "lead": "Reaching dinner tables and container ports across 30+ international markets with certified food safety and authentic South Indian culinary craft.",
+                "image": "/products/all-product/img-1.jpg",
+                "alt": "Complete heritage range and global export collection"
+            }
+        ]
+    },
+    "metrics": [
+        {
+            "id": "calc-1",
+            "productSlug": "premium-asafoetida-powder",
+            "productName": "Y.G Premium Asafoetida Powder 100g",
+            "batchSizeKg": 50,
+            "rawResinCost": 120,
+            "carrierStarchCost": 18,
+            "millingCost": 15,
+            "packagingCost": 22,
+            "laborOverhead": 12,
+            "freightCost": 8,
+            "totalUnitCost": 195,
+            "targetMarginPercent": 45,
+            "targetMarkupPercent": 81.8,
+            "gstRatePercent": 5,
+            "calculatedExGst": 354.55,
+            "calculatedSellingPrice": 372.28,
+            "currentPrice": 360,
+            "difference": -12.28,
+            "updatedAt": 1729000000000,
+            "approvedBy": "admin",
+            "status": "approved"
+        },
+        {
+            "id": "calc-2",
+            "productSlug": "traditional-health-mix",
+            "productName": "Y.G Traditional Health Mix 500g",
+            "batchSizeKg": 100,
+            "rawResinCost": 0,
+            "carrierStarchCost": 140,
+            "millingCost": 35,
+            "packagingCost": 28,
+            "laborOverhead": 15,
+            "freightCost": 12,
+            "totalUnitCost": 230,
+            "targetMarginPercent": 40,
+            "targetMarkupPercent": 66.7,
+            "gstRatePercent": 5,
+            "calculatedExGst": 383.33,
+            "calculatedSellingPrice": 402.5,
+            "currentPrice": 390,
+            "difference": -12.5,
+            "updatedAt": 1729000000000,
+            "approvedBy": "admin",
+            "status": "approved"
+        }
+    ],
+    "exportDeals": [],
+    "inquiries": [
+        {
+            "id": "inq-1792176582413-3758a",
+            "referenceNo": "YG-INQ-20261016-1663",
+            "name": "Patrick Donovan",
+            "email": "patrick.donovan@jmailservice.com",
+            "phone": "",
+            "subject": "Start Getting Leads Tomorrow",
+            "category": "Website Contact Form",
+            "message": "We specialize in putting businesses like yours right at the top of search results. Setup is fast and effortless.\nIs this something you'd like to explore?",
+            "status": "read",
+            "isRead": true,
+            "adminNotes": null,
+            "replyText": null,
+            "repliedAt": null,
+            "repliedBy": null,
+            "createdAt": 1792176582413,
+            "dbSaved": true
+        }
+    ],
+    "settings": {
+        "siteName": "The Brand Y.G",
+        "tagline": "Authentic Tirunelveli Stone-Compounded Hing Since 1932",
+        "currency": "INR",
+        "currencySymbol": "₹",
+        "freeShippingThreshold": 499,
+        "standardShippingFee": 60,
+        "expressShippingFee": 99,
+        "maintenanceMode": true,
+        "allowGuestCheckout": false,
+        "enableStockAlerts": false,
+        "supportPhone": "0462 - 233 5555",
+        "salesMobile": "+91 7200622221",
+        "social": {
+            "instagram": "https://instagram.com/ygasafoetida",
+            "facebook": "https://facebook.com/ygasafoetida",
+            "youtube": "https://youtube.com/@ygasafoetida",
+            "whatsapp": "https://wa.me/917200622221"
+        },
+        "cms": {
+            "announcement": "FREE SHIPPING ACROSS INDIA ON ORDERS ABOVE ₹499 · DIRECT FROM TIRUNELVELI WORKS",
+            "hero": {
+                "eyebrow": "Heritage Pure Compounded Hing · Estd. 1932",
+                "title": "Stone-Compounded in Tirunelveli for Nine Decades",
+                "subtitle": "Procured from alpine mountain roots, compounded on traditional granite rollers, and sealed fresh for authentic South Indian kitchens worldwide."
+            },
+            "contact": {
+                "companyName": "Mayil Agro Foods",
+                "brandName": "Y.G Asafoetida",
+                "addressLine1": "1/303, M.K. Nagar, near HP fuel station",
+                "addressLine2": "Tenkasi - Tirunelveli Main Road",
+                "city": "Tirunelveli",
+                "pin": "627012",
+                "state": "Tamil Nadu",
+                "telephone": "0462 - 233 5555",
+                "mobile": "+91 7200622221",
+                "salesDesk": "+91 790 456 7979",
+                "salesEmail": "sales@yghing.com",
+                "exportEmail": "exports@yghing.com",
+                "b2bEmail": "b2bsales@yghing.com",
+                "supportEmail": "support@yghing.com"
+            },
+            "storyTimeline": [
+                {
+                    "id": "1931",
+                    "chapterNo": "Chapter 01",
+                    "year": "1931",
+                    "category": "The Genesis",
+                    "title": "A Humble Beginning",
+                    "lead": "YG began in 1931 through our grandfather's initiative, procuring authentic Ferula oleoresin tears to establish culinary truth in Tirunelveli.",
+                    "quote": "Our journey began with a vision, dedication, and a commitment to quality.",
+                    "image": "/story/1931-founder.jpg",
+                    "alt": "Vintage illustration of the founder weighing pure spices on brass balance scales"
+                },
+                {
+                    "id": "1932",
+                    "chapterNo": "Chapter 02",
+                    "year": "1932",
+                    "category": "Brand Conception",
+                    "title": "The Birth of YG",
+                    "lead": "The business received the name YG, perfecting standardized hand-compounded recipes with stone mortar pits on South Car Street.",
+                    "quote": "Two letters that came to define genuine aromatic trust.",
+                    "image": "/logo.png",
+                    "alt": "Prominent YG logo treatment on archival seal",
+                    "isLogo": true
+                },
+                {
+                    "id": "1980",
+                    "chapterNo": "Chapter 03",
+                    "year": "1980",
+                    "category": "Formulation Breakthrough",
+                    "title": "Cake Powder",
+                    "lead": "A major milestone in the development of cake powder products, engineering controlled milling that preserved essential oils and delicate baking texture.",
+                    "image": "/story/1980-cake-powder.jpg",
+                    "alt": "Cake powder, a bowl of powder, and a freshly baked cake"
+                },
+                {
+                    "id": "1982",
+                    "chapterNo": "Chapter 04",
+                    "year": "1982",
+                    "category": "Pioneering Sachet",
+                    "title": "India's First Sachet",
+                    "lead": "Introduction of India's first sachet, according to our brand history, locking in fresh aromatic fragrance in affordable single-use packs.",
+                    "historicClaim": true,
+                    "image": "/story/1982-sachet.jpg",
+                    "alt": "Vintage 1982 YG sachet packaging on antique wood"
+                },
+                {
+                    "id": "2013",
+                    "chapterNo": "Chapter 05",
+                    "year": "2013",
+                    "category": "Third Generation",
+                    "title": "Third Generation Enters",
+                    "lead": "The third generation joined the business, continuing the family's entrepreneurial legacy while adopting international food safety standards.",
+                    "image": "/story/2013-generations.jpg",
+                    "alt": "Illustration showing generational connection and craft mentorship"
+                },
+                {
+                    "id": "2014",
+                    "chapterNo": "Chapter 06",
+                    "year": "2014",
+                    "category": "Category Research",
+                    "title": "Exploring Appalam",
+                    "lead": "The business began studying and exploring the Appalam category, stone-grinding urad dal flour blended with signature hing and sun-drying in open courtyards.",
+                    "image": "/story/2014-appalam.jpg",
+                    "alt": "Traditional sun-dried appalam discs in a heritage courtyard"
+                },
+                {
+                    "id": "2016",
+                    "chapterNo": "Chapter 07",
+                    "year": "2016",
+                    "category": "Wellness Expansion",
+                    "title": "Traditional Health Mix",
+                    "lead": "Formulating multigrain Sathu Maavu health mix made from slow-roasted indigenous millets, pulses, and nuts for daily family vitality.",
+                    "image": "/products/traditional-health-mix/img-1.jpg",
+                    "alt": "Traditional Health Mix Sathu Maavu packaging"
+                },
+                {
+                    "id": "2019",
+                    "chapterNo": "Chapter 08",
+                    "year": "2019",
+                    "category": "Ancient Grains",
+                    "title": "Ancient Millet Innovations",
+                    "lead": "Pioneering nutrient-dense traditional blends including multi-millet adai dosa mix, kodo pongal, and kodo sambar mixes.",
+                    "image": "/products/multi-millet-adai-dosa-mix/img-1.jpg",
+                    "alt": "Multi-millet adai dosa and grain mix"
+                },
+                {
+                    "id": "2025",
+                    "chapterNo": "Chapter 09",
+                    "year": "2025",
+                    "category": "Spice Heritage",
+                    "title": "Vismaya Rice Powders & Podis",
+                    "lead": "Launching the Vismaya culinary line of roasted paruppu podi, traditional idli podi, ellu podi, and nourishing moringa and pirandai podis.",
+                    "image": "/products/tirunelveli-special-paruppu-podi/img-1.jpg",
+                    "alt": "Vismaya authentic Tirunelveli paruppu podi"
+                },
+                {
+                    "id": "2026",
+                    "chapterNo": "Chapter 10",
+                    "year": "2026",
+                    "category": "Global Footprint",
+                    "title": "Ready-to-Cook & Worldwide Exports",
+                    "lead": "Reaching dinner tables and container ports across 30+ international markets with certified food safety and authentic South Indian culinary craft.",
+                    "image": "/products/all-product/img-1.jpg",
+                    "alt": "Complete heritage range and global export collection"
+                }
+            ]
+        },
+        "settings": {
+            "siteName": "Y.G Asafoetida",
+            "tagline": "Authentic Tirunelveli Stone-Compounded Hing Since 1932",
+            "currency": "INR",
+            "currencySymbol": "₹",
+            "freeShippingThreshold": 499,
+            "standardShippingFee": 60,
+            "expressShippingFee": 99,
+            "maintenanceMode": false,
+            "allowGuestCheckout": true,
+            "enableStockAlerts": true,
+            "supportPhone": "0462 - 233 5555",
+            "salesMobile": "+91 7200622221",
+            "social": {
+                "instagram": "https://instagram.com/ygasafoetida",
+                "facebook": "https://facebook.com/ygasafoetida",
+                "youtube": "https://youtube.com/@ygasafoetida",
+                "whatsapp": "https://wa.me/917200622221"
+            }
+        }
+    },
+    "auditLogs": [
+        {
+            "id": "log-login-1792774082669-8550",
+            "admin": "admin",
+            "action": "AUTH_LOGIN",
+            "resource": "Admin Portal",
+            "details": "Administrator 'admin' (Super Admin) logged into Admin Portal via Chrome on Windows [IP: 42.107.254.237]. Session authenticated.",
+            "timestamp": 1792774082669
+        },
+        {
+            "id": "log-login-1792368252282-48ff",
+            "admin": "admin",
+            "action": "AUTH_LOGIN",
+            "resource": "Admin Portal",
+            "details": "Administrator 'admin' (Super Admin) logged into Admin Portal via Chrome on Android [IP: 171.76.106.6]. Session authenticated.",
+            "timestamp": 1792368252282
+        },
+        {
+            "id": "log-login-1792322965420-287b",
+            "admin": "admin",
+            "action": "AUTH_LOGIN",
+            "resource": "Admin Portal",
+            "details": "Administrator 'admin' (Super Admin) logged into Admin Portal via Chrome on Android [IP: 157.51.5.202]. Session authenticated.",
+            "timestamp": 1792322965420
+        },
+        {
+            "id": "log-login-1792154245532-2879",
+            "admin": "admin",
+            "action": "AUTH_LOGIN",
+            "resource": "Admin Portal",
+            "details": "Administrator 'admin' (Super Admin) logged into Admin Portal via Chrome on Windows [IP: 49.37.195.37]. Session authenticated.",
+            "timestamp": 1792154245532
+        },
+        {
+            "id": "log-login-1792154079130-dde3",
+            "admin": "admin",
+            "action": "AUTH_LOGIN",
+            "resource": "Admin Portal",
+            "details": "Administrator 'admin' (Super Admin) logged into Admin Portal via Chrome on Windows [IP: 49.37.195.37]. Session authenticated.",
+            "timestamp": 1792154079130
+        },
+        {
+            "id": "log-auth-1792154025223",
+            "admin": "admin",
+            "action": "AUTH_LOGIN",
+            "resource": "Admin Portal",
+            "details": "Super Administrator ('admin') successfully authenticated and logged into the Central Admin Portal via Chrome on Windows [IP: 49.37.195.37]. Full management permissions active.",
+            "timestamp": 1792154025223
+        },
+        {
+            "id": "log-auth-1792152225223",
+            "admin": "admin",
+            "action": "AUTH_SESSION",
+            "resource": "Security Gateway",
+            "details": "Cryptographic administrative session validated for Super Administrator with SHA-256 token verification.",
+            "timestamp": 1792152225223
+        },
+        {
+            "id": "log-sys-1792146825223",
+            "admin": "system",
+            "action": "SYSTEM_INIT",
+            "resource": "Database Engine",
+            "details": "Production cPanel MySQL InnoDB storage active (yghingcom_dbuser) with 23 catalog products and 41 pricing variants verified.",
+            "timestamp": 1792146825223
+        }
+    ],
+    "orders": [],
+    "products": [
+        {
+            "slug": "gold-asafoetida-powder",
+            "name": "Y.G Gold Asafoetida Powder",
+            "tagline": "Heritage Gold Compounded Asafoetida Powder",
+            "format": "powder",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/50g-gold-asafoetida-powder/img-1.jpg",
+            "gallery": [
+                "/products/50g-gold-asafoetida-powder/img-1.jpg",
+                "/products/100g-gold-asafoetida-powder/img-1.jpg",
+                "/products/200g-gold-asafoetida-powder/img-1.jpg",
+                "/products/500g-gold-asafoetida-powder/img-1.jpg",
+                "/products/100g-gold-asafoetida-powder/img-2.jpg"
+            ],
+            "description": "Our signature Gold grade compounded hing powder crafted to age-old Tirunelveli traditions since 1932. Rich, intense aromatic profile that elevates every sambar, rasam, kootu, and tadka with wholesome flavor.",
+            "ingredients": "Asafoetida (Ferula asafoetida), edible starch, edible gum, refined vegetable oil.",
+            "usageInstructions": "Add 1/4 teaspoon to hot ghee or oil during tempering.",
+            "shelfLife": "18 months from packing. Store in an airtight container.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 1420,
+            "variants": [
+                {
+                    "id": "50g",
+                    "label": "50 g",
+                    "price": 67,
+                    "mrp": 96,
+                    "stock": 80
+                },
+                {
+                    "id": "100g",
+                    "label": "100 g",
+                    "price": 130,
+                    "mrp": 186,
+                    "stock": 120
+                },
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 245,
+                    "mrp": 350,
+                    "stock": 50
+                },
+                {
+                    "id": "500g",
+                    "label": "500 g",
+                    "price": 595,
+                    "mrp": 850,
+                    "stock": 40
+                }
+            ]
+        },
+        {
+            "slug": "premium-asafoetida-powder",
+            "name": "Y.G Premium Asafoetida Powder",
+            "tagline": "Master Chef's High-Concentration Hing Powder",
+            "format": "powder",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/50g-premium-asafoetida-powder/img-1.jpg",
+            "gallery": [
+                "/products/50g-premium-asafoetida-powder/img-1.jpg",
+                "/products/100g-premium-asafoetida-powder/img-1.jpg",
+                "/products/200g-premium-asafoetida-powder/img-1.jpg",
+                "/products/500g-premium-asafoetida-powder/img-1.jpg",
+                "/products/100g-premium-asafoetida-powder/img-2.jpg"
+            ],
+            "description": "Superior chef-grade asafoetida with higher natural resin concentration for deep, pungent aroma and unmatched digestive tempering potency.",
+            "ingredients": "Selected Asafoetida (Ferula asafoetida), edible starch, gum arabic.",
+            "usageInstructions": "A small pinch in hot oil or ghee is sufficient for a family curry.",
+            "shelfLife": "24 months from packing in a sealed jar.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.8,
+            "reviews": 890,
+            "variants": [
+                {
+                    "id": "50g",
+                    "label": "50 g",
+                    "price": 195,
+                    "mrp": 225,
+                    "stock": 89
+                },
+                {
+                    "id": "100g",
+                    "label": "100 g",
+                    "price": 360,
+                    "mrp": 410,
+                    "stock": 110
+                },
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 690,
+                    "mrp": 790,
+                    "stock": 60
+                },
+                {
+                    "id": "500g",
+                    "label": "500 g",
+                    "price": 1650,
+                    "mrp": 1890,
+                    "stock": 35
+                }
+            ]
+        },
+        {
+            "slug": "asafoetida-gold-cake",
+            "name": "Y.G Asafoetida Gold Cake (Pindi Hing)",
+            "tagline": "Solid Block Pindi Hing for Pickles & Traditional Tadka",
+            "format": "cake",
+            "glutenFree": false,
+            "bestseller": false,
+            "image": "/products/50g-asafoetida-gold-cake/img-2.jpg",
+            "gallery": [
+                "/products/50g-asafoetida-gold-cake/img-2.jpg",
+                "/products/100g-asafoetida-gold-cake/img-2.jpg",
+                "/products/50g-asafoetida-gold-cake/img-4.jpg",
+                "/products/100g-asafoetida-gold-cake/img-4.jpg"
+            ],
+            "description": "Pure concentrated gold hing cake block. Scrape or shave a small flake into hot oil to release intense, unbroken culinary fragrance, or soak in warm water for aromatic gravy infusion.",
+            "ingredients": "Asafoetida (Ferula asafoetida), edible gum, edible starch.",
+            "usageInstructions": "Shave a pea-sized piece into tempering or dissolve in 2 tbsp warm water.",
+            "shelfLife": "36 months. Keep wrapped in foil inside airtight container.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.8,
+            "reviews": 340,
+            "variants": [
+                {
+                    "id": "50g",
+                    "label": "50 g",
+                    "price": 60,
+                    "mrp": 86,
+                    "stock": 50
+                },
+                {
+                    "id": "100g",
+                    "label": "100 g",
+                    "price": 115,
+                    "mrp": 164,
+                    "stock": 60
+                }
+            ]
+        },
+        {
+            "slug": "premium-cake",
+            "name": "Y.G Asafoetida Premium Cake",
+            "tagline": "Premium Block Hing Cake for Master Chefs & Feasts",
+            "format": "cake",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/50g-asafoetida-gold-cake/img-1.jpg",
+            "gallery": [
+                "/products/50g-asafoetida-gold-cake/img-1.jpg",
+                "/products/100g-asafoetida-gold-cake/img-1.jpg",
+                "/products/50g-asafoetida-gold-cake/img-3.jpg",
+                "/products/100g-asafoetida-gold-cake/img-3.jpg"
+            ],
+            "description": "Ultra-potent solid compounded premium hing cake block. Scrape or shave a small flake into hot oil to release intense, unbroken culinary fragrance, or soak in warm water for aromatic gravy infusion.",
+            "ingredients": "Asafoetida (Ferula asafoetida), edible gum, edible starch.",
+            "usageInstructions": "Shave a pea-sized piece into tempering or dissolve in 2 tbsp warm water.",
+            "shelfLife": "36 months. Keep wrapped in foil inside airtight container.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.7,
+            "reviews": 340,
+            "variants": [
+                {
+                    "id": "50g",
+                    "label": "50 g",
+                    "price": 240,
+                    "mrp": 280,
+                    "stock": 50
+                },
+                {
+                    "id": "100g",
+                    "label": "100 g",
+                    "price": 450,
+                    "mrp": 520,
+                    "stock": 60
+                }
+            ]
+        },
+        {
+            "slug": "gluten-free-asafoetida-powder",
+            "name": "Y.G Gluten Free Asafoetida Powder",
+            "tagline": "Wheat-Free Rice Starch Base — 100\\% Celiac Safe",
+            "format": "gluten-free",
+            "glutenFree": true,
+            "bestseller": true,
+            "image": "/products/50g-gluten-free-asafoetida-powder/img-1.jpg",
+            "gallery": [
+                "/products/50g-gluten-free-asafoetida-powder/img-1.jpg",
+                "/products/100g-gluten-free-asafoetida-powder/img-1.jpg",
+                "/products/50g-gluten-free-asafoetida-powder/img-2.jpg",
+                "/products/50g-gluten-free-asafoetida-powder/img-3.jpg",
+                "/products/50g-gluten-free-asafoetida-powder/img-4.jpg"
+            ],
+            "description": "Made exclusively with pure rice starch base without any wheat flour. Delivers 100\\% authentic hing aroma for gluten-sensitive and celiac households.",
+            "ingredients": "Asafoetida (Ferula asafoetida), rice starch, edible gum. Certified gluten-free.",
+            "usageInstructions": "Use exactly like classic powder — 1/4 tsp per dish.",
+            "shelfLife": "18 months from packing.",
+            "in_stock": true,
+            "stock_left": 8,
+            "rating": 4.8,
+            "reviews": 512,
+            "variants": [
+                {
+                    "id": "50g",
+                    "label": "50 g",
+                    "price": 220,
+                    "mrp": 250,
+                    "stock": 65
+                },
+                {
+                    "id": "100g",
+                    "label": "100 g",
+                    "price": 395,
+                    "mrp": 450,
+                    "stock": 75
+                }
+            ]
+        },
+        {
+            "slug": "Coarse-grained-hing",
+            "name": "Y.G Hing Granules (Coarse-grained)",
+            "tagline": "Natural Ferula Gum Resin",
+            "format": "granules",
+            "glutenFree": false,
+            "bestseller": false,
+            "image": "/products/hing/img-1.jpg",
+            "gallery": [
+                "/products/hing/img-1.jpg"
+            ],
+            "description": "The raw, unadulterated gum oleoresin directly harvested from the mountain roots of Ferula. Extremely potent and medicinal — a microscopic piece will transform an entire banquet.",
+            "ingredients": "Edible Gum, Wheat Flour, Asafoetida",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 0,
+            "variants": [
+                {
+                    "id": "50g",
+                    "label": "50 g",
+                    "price": 89,
+                    "mrp": 110,
+                    "stock": 100
+                },
+                {
+                    "id": "100g",
+                    "label": "100 g",
+                    "price": 169,
+                    "mrp": 220,
+                    "stock": 100
+                }
+            ]
+        },
+        {
+            "slug": "hing-chips",
+            "name": "Y.G Hing Chips (Flakes / Khada)",
+            "tagline": "Sun-Dried Asafoetida Flakes — Slow Blooming Flavor",
+            "format": "crystal",
+            "glutenFree": false,
+            "bestseller": false,
+            "image": "/products/hing-chips/img-1.jpg",
+            "gallery": [
+                "/products/hing-chips/img-1.jpg",
+                "/products/hing-chips/img-2.jpg"
+            ],
+            "description": "Coarse sun-cured hing flakes that bloom slowly in sizzling ghee, infusing sambars, curries, and rasams with deep, lingering flavor.",
+            "ingredients": "Asafoetida (Ferula foetida resin), edible gum, edible flour.",
+            "usageInstructions": "Drop 2-3 flakes into warm ghee before adding spices.",
+            "shelfLife": "24 months in an airtight jar.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.6,
+            "reviews": 215,
+            "variants": [
+                {
+                    "id": "50g",
+                    "label": "50 g",
+                    "price": 260,
+                    "mrp": 300,
+                    "stock": 45
+                },
+                {
+                    "id": "100g",
+                    "label": "100 g",
+                    "price": 490,
+                    "mrp": 560,
+                    "stock": 50
+                }
+            ]
+        },
+        {
+            "slug": "crystal-asafoetida",
+            "name": "Y.G Crystal Asafoetida (Granules / Pellets)",
+            "tagline": "Crisp Granular Pellets for Curd Rice & Sambar Tempering",
+            "format": "crystal",
+            "glutenFree": false,
+            "bestseller": false,
+            "image": "/products/hing-pellets/img-1.jpg",
+            "gallery": [
+                "/products/hing-pellets/img-1.jpg",
+                "/products/hing-pellets/img-2.jpg",
+                "/products/hing-pellets/img-3.jpg",
+                "/products/hing-pellets/img-4.jpg"
+            ],
+            "description": "Free-flowing, crisp hing pellets that dissolve smoothly and puff lightly when dropped in hot oil. The ideal choice for curd rice, buttermilk, vathal kuzhambu, and potato roasts.",
+            "ingredients": "Asafoetida, natural gum, edible cereal starch.",
+            "usageInstructions": "Crush a pellet or drop whole into hot oil during tadka.",
+            "shelfLife": "24 months.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.5,
+            "reviews": 310,
+            "variants": [
+                {
+                    "id": "50g",
+                    "label": "50 g",
+                    "price": 250,
+                    "mrp": 290,
+                    "stock": 55
+                },
+                {
+                    "id": "100g",
+                    "label": "100 g",
+                    "price": 475,
+                    "mrp": 540,
+                    "stock": 60
+                }
+            ]
+        },
+        {
+            "slug": "pure-raw-hing",
+            "name": "Y.G Pure Raw Hing Lump (Kashmiri Resin)",
+            "tagline": "100\\% Uncut Natural Ferula Gum Resin",
+            "format": "crystal",
+            "glutenFree": false,
+            "bestseller": false,
+            "image": "/products/hing/img-1.jpg",
+            "gallery": [
+                "/products/hing/img-1.jpg",
+                "/products/hing/img-2.jpg",
+                "/products/hing/img-3.jpg",
+                "/products/hing/img-4.jpg"
+            ],
+            "description": "The raw, unadulterated gum oleoresin directly harvested from the mountain roots of Ferula. Extremely potent and medicinal — a microscopic piece will transform an entire banquet.",
+            "ingredients": "100\\% Raw Asafoetida Oleoresin (Ferula foetida). Zero additives.",
+            "usageInstructions": "Scrape a tiny pinhead amount and dissolve in warm liquid.",
+            "shelfLife": "60 months. Indefinite when kept dry and sealed.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.4,
+            "reviews": 195,
+            "variants": [
+                {
+                    "id": "50g",
+                    "label": "50 g",
+                    "price": 720,
+                    "mrp": 820,
+                    "stock": 40
+                },
+                {
+                    "id": "100g",
+                    "label": "100 g",
+                    "price": 1350,
+                    "mrp": 1550,
+                    "stock": 25
+                }
+            ]
+        },
+        {
+            "slug": "bottle-jar-asafoetida",
+            "name": "Y.G Heritage Bottle Jar Asafoetida",
+            "tagline": "Collector's Glass Bottle Jar with Airtight Aroma Seal",
+            "format": "powder",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/bottle-jar/img-1.jpg",
+            "gallery": [
+                "/products/bottle-jar/img-1.jpg",
+                "/products/bottle-jar/img-2.jpg",
+                "/products/bottle-jar/img-3.jpg",
+                "/products/bottle-jar/img-4.jpg",
+                "/products/bottle-jar/img-5.jpg"
+            ],
+            "description": "Presented in our signature airtight glass bottle jar with hermetic seal to preserve volatile aromatic oils for years. Reusable and collector-worthy.",
+            "ingredients": "Compounded Asafoetida (Ferula asafoetida), edible starch, edible gum.",
+            "usageInstructions": "Keep on kitchen counter for easy daily spooning.",
+            "shelfLife": "36 months in aroma-lock glass jar.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.7,
+            "reviews": 460,
+            "variants": [
+                {
+                    "id": "100g",
+                    "label": "100 g Glass Jar",
+                    "price": 380,
+                    "mrp": 440,
+                    "stock": 40
+                },
+                {
+                    "id": "250g",
+                    "label": "250 g Glass Jar",
+                    "price": 850,
+                    "mrp": 990,
+                    "stock": 30
+                }
+            ]
+        },
+        {
+            "slug": "all-product-heritage-combo",
+            "name": "Y.G Complete Heritage Asafoetida Combo",
+            "tagline": "Grand All-in-One Collection Box with Spoon & Notes",
+            "format": "combo",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/all-product/img-1.jpg",
+            "gallery": [
+                "/products/all-product/img-1.jpg",
+                "/products/all-product/img-2.jpg",
+                "/products/all-product/img-3.jpg",
+                "/products/all-product/img-4.jpg",
+                "/products/all-product/img-5.jpg",
+                "/products/all-product/img-6.jpg"
+            ],
+            "description": "The definitive Y.G tasting experience containing Gold Powder, Premium Cake, Pellets, Chips, and Bottle Jar alongside an engraved brass spoon and heritage recipe cards.",
+            "ingredients": "Contains: Gold Powder (100g), Cake (50g), Pellets (50g), Chips (50g), Brass Spoon.",
+            "usageInstructions": "The ultimate culinary gift for gourmet cooks and heritage lovers.",
+            "shelfLife": "24 months.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 280,
+            "variants": [
+                {
+                    "id": "4in1",
+                    "label": "4-in-1 Heritage Box",
+                    "price": 999,
+                    "mrp": 1299,
+                    "stock": 50
+                },
+                {
+                    "id": "deluxe",
+                    "label": "Deluxe Hamper Box",
+                    "price": 1799,
+                    "mrp": 2299,
+                    "stock": 30
+                }
+            ]
+        },
+        {
+            "slug": "traditional-health-mix",
+            "name": "Y.G Traditional Health Mix (Sathu Maavu)",
+            "tagline": "18 Multigrain Energy Porridge with Millets, Pulses & Nuts",
+            "format": "health-mix",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/traditional-health-mix/200g.jpg",
+            "gallery": [
+                "/products/traditional-health-mix/200g.jpg",
+                "/products/traditional-health-mix/500g.jpg",
+                "/products/traditional-health-mix/200g-2.jpg",
+                "/products/traditional-health-mix/500g-2.jpg",
+                "/products/traditional-health-mix/img-1.jpg"
+            ],
+            "description": "Handcrafted traditional Sathu Maavu multigrain porridge mix slowly dry-roasted on wood-fired irons and stone-ground from 18 traditional grains, pulses, millets, cardamom, and roasted nuts. Ideal daily morning nourishment for all ages.",
+            "ingredients": "Ragi, Kambu (Pearl Millet), Red Rice, Roasted Gram, Green Gram, Wheat, Sorghum, Almonds, Cashews, Cardamom, Dry Ginger.",
+            "usageInstructions": "Mix 2 tbsp in 250ml water or milk, simmer for 3-5 minutes with country jaggery or salt & buttermilk.",
+            "shelfLife": "9 months from packing. Store in an airtight container.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 310,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 140,
+                    "mrp": 165,
+                    "stock": 90
+                },
+                {
+                    "id": "500g",
+                    "label": "500 g",
+                    "price": 320,
+                    "mrp": 380,
+                    "stock": 65
+                }
+            ]
+        },
+        {
+            "slug": "pure-benzoin-sambrani",
+            "name": "Y.G Pure Natural Benzoin (Pooja Sambrani)",
+            "tagline": "Sacred Temple Loban Resin for Puja & Daily Fragrance",
+            "format": "sambrani",
+            "glutenFree": true,
+            "bestseller": true,
+            "image": "/products/pure-benzoin-sambrani/50g.png",
+            "gallery": [
+                "/products/pure-benzoin-sambrani/50g.png",
+                "/products/pure-benzoin-sambrani/500g.jpg",
+                "/products/pure-benzoin-sambrani/img-1.png",
+                "/products/pure-benzoin-sambrani/img-2.jpg",
+                "/products/pure-benzoin-sambrani/img-3.jpg"
+            ],
+            "description": "Pure natural Benzoin resin (Loban / Paal Sambrani) sourced directly from natural balsamic trees. Produces divine, authentic temple aroma and clears airborne impurities when sprinkled on glowing charcoal.",
+            "ingredients": "100\\% Pure Natural Benzoin Resin (Styrax benzoin).",
+            "usageInstructions": "Sprinkle a small piece onto glowing coconut shell charcoal or dhoop burner.",
+            "shelfLife": "36 months. Store in a dry place.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.8,
+            "reviews": 185,
+            "variants": [
+                {
+                    "id": "50g",
+                    "label": "50 g",
+                    "price": 160,
+                    "mrp": 190,
+                    "stock": 95
+                },
+                {
+                    "id": "500g",
+                    "label": "500 g",
+                    "price": 1250,
+                    "mrp": 1450,
+                    "stock": 35
+                }
+            ]
+        },
+        {
+            "slug": "crispy-appalam",
+            "name": "Y.G Crispy Appalam",
+            "tagline": "Authentic Tirunelveli Sun-Dried Crunchy Lentil Papad",
+            "format": "crispy-appalam",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/crispy-appalam/img-1.jpg",
+            "gallery": [
+                "/products/crispy-appalam/img-1.jpg"
+            ],
+            "description": "Traditional South Indian Crispy Appalams prepared with stone-ground urad dal, infused with signature Y.G compounded hing and sun-dried to delicate golden perfection. Puffs up light, airy, and crunchily irresistible in warm oil or over an open flame.",
+            "ingredients": "Urad Dal Flour, Rice Flour, Y.G Asafoetida, Edible Salt, Calcium Carbonate.",
+            "usageInstructions": "Deep fry in hot oil for 5 seconds until puffed, or roast over fire.",
+            "shelfLife": "12 months from packing. Store in an airtight container.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.6,
+            "reviews": 245,
+            "variants": [
+                {
+                    "id": "100g",
+                    "label": "100 g",
+                    "price": 65,
+                    "mrp": 80,
+                    "stock": 120
+                },
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 120,
+                    "mrp": 150,
+                    "stock": 90
+                },
+                {
+                    "id": "300g",
+                    "label": "300 g",
+                    "price": 170,
+                    "mrp": 210,
+                    "stock": 70
+                }
+            ]
+        },
+        {
+            "slug": "black-ellu-podi",
+            "name": "Vismaya Ellu Podi (Black Sesame Idli Powder)",
+            "tagline": "Traditional Sun-Dried High-Calcium Black Sesame Podi",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/black-sesame-seeds/img-1.jpg",
+            "gallery": [
+                "/products/black-sesame-seeds/img-1.jpg",
+                "/products/black-sesame-seeds/img-2.jpg"
+            ],
+            "description": "Carefully selected and wood-roasted indigenous South Indian Black Sesame (Karuppu Ellu) with lentils, red chillies, and asafoetida. Rich in natural calcium, iron, and deep nutty aroma. Perfect for idlis, dosas, and hot steamed rice.",
+            "ingredients": "Indigenous Black Sesame Seeds (Karuppu Ellu), Roasted Lentils, Red Chillies, Asafoetida, Curry Leaves, Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 0,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 135,
+                    "mrp": 160,
+                    "stock": 100
+                }
+            ]
+        },
+        {
+            "slug": "tirunelveli-special-kids-paruppu-podi",
+            "name": "Vismaya Tirunelveli Special Kids Paruppu Podi",
+            "tagline": "Heritage Tamaraibarani Wood-Roasted Lentil Podi with Pepper",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/tirunelveli-special-paruppu-podi/img-1.jpg",
+            "gallery": [
+                "/products/tirunelveli-special-paruppu-podi/img-1.jpg"
+            ],
+            "description": "Signature Southern Tamil Nadu roasted paruppu podi with golden roasted lentils, Tellicherry black peppercorns, curry leaves, and heritage Y.G hing. Comforting, digestive, and deeply satisfying with hot rice and sesame oil.",
+            "ingredients": "Selected Toor Dal, Bengal Gram, Black Pepper, Dry Ginger, Y.G Compounded Hing, Curry Leaves, Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 0,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 129,
+                    "mrp": 160,
+                    "stock": 90
+                }
+            ]
+        },
+        {
+            "slug": "ellu-idli-podi",
+            "name": "Vismaya Black Sesame Idli Podi",
+            "tagline": "Traditional Sun-Dried High-Calcium Black Sesame Podi",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/black-sesame-seeds/img-1.jpg",
+            "gallery": [
+                "/products/black-sesame-seeds/img-1.jpg"
+            ],
+            "description": "Carefully selected and wood-roasted indigenous South Indian Black Sesame (Karuppu Ellu) with lentils, red chillies, and asafoetida. Rich in natural calcium, iron, and deep nutty aroma. Perfect for idlis, dosas, and hot steamed rice.",
+            "ingredients": "Indigenous Black Sesame Seeds (Karuppu Ellu), Roasted Lentils, Red Chillies, Asafoetida, Curry Leaves, Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 0,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 119,
+                    "mrp": 160,
+                    "stock": 100
+                }
+            ]
+        },
+        {
+            "slug": "kids-special-paruppu-podi",
+            "name": "Vismaya Kids Paruppu Podi",
+            "tagline": "Heritage Tamaraibarani-Roasted Lentil Podi with Pepper",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/tirunelveli-special-paruppu-podi/img-1.jpg",
+            "gallery": [
+                "/products/tirunelveli-special-paruppu-podi/img-1.jpg"
+            ],
+            "description": "Signature Southern Tamil Nadu roasted paruppu podi with golden roasted lentils, Tellicherry black peppercorns, curry leaves, and heritage Y.G hing. Comforting, digestive, and deeply satisfying with hot rice and sesame oil.",
+            "ingredients": "Selected Toor Dal, Bengal Gram, Black Pepper, Dry Ginger, Y.G Compounded Hing, Curry Leaves, Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 0,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 140,
+                    "mrp": 165,
+                    "stock": 90
+                }
+            ]
+        },
+        {
+            "slug": "kodo-millet-pongal-mix",
+            "name": "Vismaya Kodo Millet Pongal Mix",
+            "tagline": "Nutrient-Dense Wholesome Foxtail & Kodo Millet Breakfast Blend",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/millet-pongal-mix/img-1.jpg",
+            "gallery": [
+                "/products/millet-pongal-mix/img-1.jpg"
+            ],
+            "description": "A hearty, low-glycemic traditional South Indian breakfast blend combining unpolished heritage Kodo and Foxtail millets with yellow moong dal, crushed Tellicherry black pepper, cumin seeds, roasted cashews, and ginger. Cooks into a piping-hot, comforting Ven Pongal in under 10 minutes.",
+            "ingredients": "Kodo Millet (Varagu), Foxtail Millet (Thinai), Yellow Moong Dal, Crushed Black Pepper, Cumin Seeds, Whole Cashews, Ginger, Curry Leaves, Y.G Pure Hing, Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 0,
+            "variants": [
+                {
+                    "id": "250g",
+                    "label": "250 g",
+                    "price": 125,
+                    "mrp": 150,
+                    "stock": 85
+                }
+            ]
+        },
+        {
+            "slug": "kodomillet-sambar-mix",
+            "name": "Vismaya Kodo Millet Sambar Mix",
+            "tagline": "Authentic Tirunelveli Sambar Rice with Ancient Millets & Spices",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/millet-sambar-mix/img-1.jpg",
+            "gallery": [
+                "/products/millet-sambar-mix/img-1.jpg"
+            ],
+            "description": "One-pot nourishing South Indian comfort food crafted with Kodo and Barnyard millets, protein-rich toor dal, and an artisanal roasted spice blend infused with tangy tamarind and signature Y.G asafoetida.",
+            "ingredients": "Kodo Millet (Varagu), Barnyard Millet (Kuthiraivali), Toor Dal, Roasted Coriander, Red Chillies, Cumin, Fenugreek, Tamarind, Turmeric, Y.G Compounded Hing, Rock Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 0,
+            "variants": [
+                {
+                    "id": "250g",
+                    "label": "250 g",
+                    "price": 130,
+                    "mrp": 155,
+                    "stock": 90
+                }
+            ]
+        },
+        {
+            "slug": "multigrain-millet-adai-dosa-mix",
+            "name": "Vismaya Multigrain Millet Adai Dosa Mix",
+            "tagline": "High-Protein Heritage Multi-Millet & 4-Lentil Crisp Adai Blend",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/multi-millet-adai-dosa-mix/img-1.jpg",
+            "gallery": [
+                "/products/multi-millet-adai-dosa-mix/img-1.jpg"
+            ],
+            "description": "A rustic, protein-packed traditional South Indian Adai mix blending 5 ancient millets with four hearty lentils, dry chillies, fennel seeds, fresh ginger, and hing. Delivers crispy, golden, wholesome adai dosas without long soaking or fermenting.",
+            "ingredients": "Foxtail Millet, Kodo Millet, Toor Dal, Chana Dal, Urad Dal, Moong Dal, Red Chillies, Cumin, Fennel, Asafoetida, Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.9,
+            "reviews": 0,
+            "variants": [
+                {
+                    "id": "500g",
+                    "label": "500 g",
+                    "price": 230,
+                    "mrp": 270,
+                    "stock": 80
+                }
+            ]
+        },
+        {
+            "slug": "pirandai-paruppu-podi",
+            "name": "Vismaya Pirandai Paruppu Podi (Adamant Creeper)",
+            "tagline": "Ancient Bone Health & Digestive Herbal Lentil Spice Blend",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/pirandai-paruppu-podi/img-1.jpg",
+            "gallery": [
+                "/products/pirandai-paruppu-podi/img-1.jpg"
+            ],
+            "description": "Traditional therapeutic Pirandai (Cissus quadrangularis) slow-roasted in sesame oil to eliminate itchiness and blended with roasted lentils, ginger, tamarind, and asafoetida. Revered in Tamil Siddha heritage for bone density and joint wellness.",
+            "ingredients": "Pirandai (Cissus quadrangularis), Toor Dal, Urad Dal, Dry Red Chillies, Tamarind, Dry Ginger, Asafoetida, Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.4,
+            "reviews": 125,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 150,
+                    "mrp": 175,
+                    "stock": 65
+                }
+            ]
+        },
+        {
+            "slug": "curry-leave-paruppu-podi",
+            "name": "Vismaya Curry Leave Paruppu Podi (Kariveppilai)",
+            "tagline": "Digestive Rich Curry Leaves & Roasted Lentil Chutney Powder",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": false,
+            "image": "/products/curry-leave-paruppu-podi/img-1.jpg",
+            "gallery": [
+                "/products/curry-leave-paruppu-podi/img-1.jpg"
+            ],
+            "description": "Hand-plucked fresh curry leaves gently shade-dried and wood-roasted with indigenous dals, pepper, cumin, and hing. Renowned in Siddha traditions for natural digestive support and hair nourishment.",
+            "ingredients": "Selected Curry Leaves (Kariveppilai), Urad Dal, Chana Dal, Pepper, Cumin, Dry Red Chillies, Asafoetida, Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.7,
+            "reviews": 118,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 139,
+                    "mrp": 180,
+                    "stock": 70
+                }
+            ]
+        },
+        {
+            "slug": "moringa-paruppu-podi",
+            "name": "Vismaya Moringa Paruppu Podi (Murungai Keerai)",
+            "tagline": "Immunity-Boosting Drumstick Leaf Herbal Lentil Gunpowder",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/moringa-paruppu-podi/img-1.jpg",
+            "gallery": [
+                "/products/moringa-paruppu-podi/img-1.jpg"
+            ],
+            "description": "Superfood drumstick leaves (Moringa Oleifera) sun-cured and slow-roasted with protein-rich lentils, roasted garlic, black pepper, and pure hing. Packed with iron, calcium, and vitality.",
+            "ingredients": "Sun-Dried Moringa Leaves, Toor Dal, Roasted Gram, Red Chillies, Garlic, Black Pepper, Asafoetida, Rock Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.5,
+            "reviews": 140,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 145,
+                    "mrp": 170,
+                    "stock": 75
+                }
+            ]
+        },
+        {
+            "slug": "multi-millet-adai-dosa-mix",
+            "name": "Vismaya Multi Millet Adai Dosa Mix",
+            "tagline": "High-Protein Heritage Multi-Millet & 4-Lentil Crisp Adai Blend",
+            "format": "vismaya",
+            "glutenFree": true,
+            "bestseller": true,
+            "image": "/products/multi-millet-adai-dosa-mix/img-1.jpg",
+            "gallery": [
+                "/products/multi-millet-adai-dosa-mix/img-1.jpg",
+                "/products/multi-millet-adai-dosa-mix/img-2.jpg"
+            ],
+            "description": "A rustic, protein-packed traditional South Indian Adai mix blending 5 ancient millets with four hearty lentils, dry chillies, fennel seeds, fresh ginger, and hing. Delivers crispy, golden, wholesome adai dosas without long soaking or fermenting.",
+            "ingredients": "Foxtail Millet, Kodo Millet, Little Millet, Toor Dal, Chana Dal, Urad Dal, Moong Dal, Red Chillies, Cumin, Fennel, Asafoetida, Salt.",
+            "usageInstructions": "Mix 1 cup with 1.25 cups water into medium batter, rest 15 mins, spread onto hot tawa, roast with ghee or sesame oil.",
+            "shelfLife": "9 months from packing.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.6,
+            "reviews": 190,
+            "variants": [
+                {
+                    "id": "500g",
+                    "label": "500 g",
+                    "price": 230,
+                    "mrp": 270,
+                    "stock": 80
+                }
+            ]
+        },
+        {
+            "slug": "kodo-sambar-mix",
+            "name": "Vismaya Kodo Sambar Mix",
+            "tagline": "Authentic Tirunelveli Sambar Rice with Ancient Millets & Spices",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/millet-sambar-mix/img-1.jpg",
+            "gallery": [
+                "/products/millet-sambar-mix/img-1.jpg",
+                "/products/millet-sambar-mix/img-2.jpg"
+            ],
+            "description": "One-pot nourishing South Indian comfort food crafted with Kodo and Barnyard millets, protein-rich toor dal, and an artisanal roasted spice blend infused with tangy tamarind and signature Y.G asafoetida.",
+            "ingredients": "Kodo Millet (Varagu), Barnyard Millet (Kuthiraivali), Toor Dal, Roasted Coriander, Red Chillies, Cumin, Fenugreek, Tamarind, Turmeric, Y.G Compounded Hing, Rock Salt.",
+            "usageInstructions": "Add 1 cup mix to 4 cups boiling water in a pressure cooker with vegetables of choice, cook for 3 whistles, finish with a drizzle of ghee.",
+            "shelfLife": "9 months from packing.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.7,
+            "reviews": 162,
+            "variants": [
+                {
+                    "id": "250g",
+                    "label": "250 g",
+                    "price": 130,
+                    "mrp": 155,
+                    "stock": 90
+                }
+            ]
+        },
+        {
+            "slug": "kodo-pongal-mix",
+            "name": "Vismaya Kodo Pongal Mix",
+            "tagline": "Nutrient-Dense Wholesome Foxtail & Kodo Millet Breakfast Blend",
+            "format": "vismaya",
+            "glutenFree": true,
+            "bestseller": true,
+            "image": "/products/millet-pongal-mix/img-1.jpg",
+            "gallery": [
+                "/products/millet-pongal-mix/img-1.jpg",
+                "/products/millet-pongal-mix/img-2.jpg"
+            ],
+            "description": "A hearty, low-glycemic traditional South Indian breakfast blend combining unpolished heritage Kodo and Foxtail millets with yellow moong dal, crushed Tellicherry black pepper, cumin seeds, roasted cashews, and ginger. Cooks into a piping-hot, comforting Ven Pongal in under 10 minutes.",
+            "ingredients": "Kodo Millet (Varagu), Foxtail Millet (Thinai), Yellow Moong Dal, Crushed Black Pepper, Cumin Seeds, Whole Cashews, Ginger, Curry Leaves, Y.G Pure Hing, Salt.",
+            "usageInstructions": "Pressure cook 1 cup mix with 3.5 cups water for 3 whistles, or simmer in a pot. Top with 1 spoon hot ghee.",
+            "shelfLife": "9 months from packing.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.5,
+            "reviews": 178,
+            "variants": [
+                {
+                    "id": "250g",
+                    "label": "250 g",
+                    "price": 125,
+                    "mrp": 150,
+                    "stock": 85
+                }
+            ]
+        },
+        {
+            "slug": "tirunelveli-special-paruppu-podi",
+            "name": "Vismaya Tirunelveli Special Paruppu Podi",
+            "tagline": "Heritage Tamaraibarani Wood-Roasted Lentil Podi with Pepper",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/tirunelveli-special-paruppu-podi/img-1.jpg",
+            "gallery": [
+                "/products/tirunelveli-special-paruppu-podi/img-1.jpg"
+            ],
+            "description": "Signature Southern Tamil Nadu roasted paruppu podi with golden roasted lentils, Tellicherry black peppercorns, curry leaves, and heritage Y.G hing. Comforting, digestive, and deeply satisfying with hot rice and sesame oil.",
+            "ingredients": "Selected Toor Dal, Bengal Gram, Black Pepper, Dry Ginger, Y.G Compounded Hing, Curry Leaves, Salt.",
+            "usageInstructions": "Mix with hot steamed ponni rice and pure sesame oil or cow ghee.",
+            "shelfLife": "9 months from packing.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.6,
+            "reviews": 160,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 140,
+                    "mrp": 165,
+                    "stock": 90
+                }
+            ]
+        },
+        {
+            "slug": "andhra-special-paruppu-podi",
+            "name": "Vismaya Andhra Special Paruppu Podi (Rice Mix)",
+            "tagline": "Authentic Guntur Roasted Lentil & Cumin Spice Blend",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/andhra-special-paruppu-podi/img-1.jpg",
+            "gallery": [
+                "/products/andhra-special-paruppu-podi/img-1.jpg"
+            ],
+            "description": "Classic spicy Andhra Kandi Podi formulated with slow-roasted toor dal, moong dal, roasted cumin seeds, garlic, fiery red chillies, and pure compounded hing. A staple delicacy that elevates hot rice and ghee into culinary nirvana.",
+            "ingredients": "Roasted Toor Dal, Roasted Moong Dal, Guntur Red Chillies, Cumin Seeds, Garlic, Asafoetida, Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.8,
+            "reviews": 135,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 139,
+                    "mrp": 180,
+                    "stock": 85
+                }
+            ]
+        },
+        {
+            "slug": "ellu-podi",
+            "name": "Vismaya Ellu Podi (Black Sesame Idli Podi)",
+            "tagline": "Traditional Sun-Dried High-Calcium Black Sesame Podi",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/black-sesame-seeds/img-1.jpg",
+            "gallery": [
+                "/products/black-sesame-seeds/img-1.jpg",
+                "/products/black-sesame-seeds/img-2.jpg"
+            ],
+            "description": "Carefully selected and wood-roasted indigenous South Indian Black Sesame (Karuppu Ellu) with lentils, red chillies, and asafoetida. Rich in natural calcium, iron, and deep nutty aroma. Perfect for idlis, dosas, and hot steamed rice.",
+            "ingredients": "Indigenous Black Sesame Seeds (Karuppu Ellu), Roasted Lentils, Red Chillies, Asafoetida, Curry Leaves, Salt.",
+            "usageInstructions": "",
+            "shelfLife": "18 months from packing",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.4,
+            "reviews": 145,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 135,
+                    "mrp": 160,
+                    "stock": 100
+                }
+            ]
+        },
+        {
+            "slug": "traditional-idli-podi",
+            "name": "Vismaya Traditional Idli Podi",
+            "tagline": "Artisanal Wood-Roasted Gunpowder with Pure Hing & Lentils",
+            "format": "vismaya",
+            "glutenFree": false,
+            "bestseller": true,
+            "image": "/products/traditional-idli-podi/img-1.jpg",
+            "gallery": [
+                "/products/traditional-idli-podi/img-1.jpg",
+                "/products/traditional-idli-podi/img-2.jpg",
+                "/products/traditional-idli-podi/img-3.jpg",
+                "/products/traditional-idli-podi/img-4.jpg"
+            ],
+            "description": "Grandmother's heritage recipe of slow-roasted urad dal, chana dal, sun-dried Guntur chillies, fresh curry leaves, and a generous pinch of authentic Y.G compounded hing. Coarsely ground for the signature crunchy texture that pairs exquisitely with hot idlis, crispy dosas, and cold-pressed sesame oil or ghee.",
+            "ingredients": "Urad Dal, Chana Dal, Dry Red Chillies, White Sesame, Curry Leaves, Y.G Compounded Asafoetida, Rock Salt.",
+            "usageInstructions": "Mix 1-2 tbsp with cold-pressed gingelly (sesame) oil or hot melted A2 ghee as a dip for idlis and dosas.",
+            "shelfLife": "9 months from packing. Keep jar sealed.",
+            "in_stock": true,
+            "stock_left": null,
+            "rating": 4.7,
+            "reviews": 260,
+            "variants": [
+                {
+                    "id": "200g",
+                    "label": "200 g",
+                    "price": 135,
+                    "mrp": 160,
+                    "stock": 110
+                }
+            ]
+        }
+    ],
+    "reviews": [],
+    "tickets": [
+        {
+            "id": "TKT45556",
+            "topic": "Start Getting Leads Tomorrow",
+            "order_id": null,
+            "message": "We specialize in putting businesses like yours right at the top of search results. Setup is fast and effortless.\nIs this something you'd like to explore? (From: Patrick Donovan)",
+            "contact": "patrick.donovan@jmailservice.com",
+            "status": "open",
+            "reply": null,
+            "created_at": 1792176582791,
+            "updated_at": 1792176582791
+        }
+    ],
+    "promos": [
+        {
+            "code": "HERITAGE10",
+            "label": "10% off",
+            "description": "10% off your order — our 1932 heritage welcome offer.",
+            "percent_off": 10,
+            "amount_off": null,
+            "min_subtotal": null,
+            "free_shipping": 0,
+            "automatic": 0,
+            "is_active": 1,
+            "created_at": 1792774219299
+        },
+        {
+            "code": "FREESHIP",
+            "label": "Free shipping",
+            "description": "Free delivery on any order.",
+            "percent_off": null,
+            "amount_off": null,
+            "min_subtotal": null,
+            "free_shipping": 1,
+            "automatic": 0,
+            "is_active": 1,
+            "created_at": 1792774219299
+        },
+        {
+            "code": "BULK15",
+            "label": "15% off ₹999+",
+            "description": "Automatic 15% off when your basket crosses ₹999.",
+            "percent_off": 15,
+            "amount_off": null,
+            "min_subtotal": 999,
+            "free_shipping": 0,
+            "automatic": 1,
+            "is_active": 1,
+            "created_at": 1792774219299
+        }
+    ],
+    "categories": [
+        {
+            "id": "powder",
+            "label": "Compounded Hing Powder",
+            "sortOrder": 0,
+            "createdAt": 1792152261358
+        },
+        {
+            "id": "granules",
+            "label": "Pure Hing Pellets & Granules",
+            "sortOrder": 1,
+            "createdAt": 1792152261358
+        },
+        {
+            "id": "cake",
+            "label": "Traditional Solid Hing Cake (Pindi)",
+            "sortOrder": 2,
+            "createdAt": 1792152261358
+        },
+        {
+            "id": "sambrani",
+            "label": "Temple Puja Sambrani",
+            "sortOrder": 3,
+            "createdAt": 1792152261358
+        },
+        {
+            "id": "sathu-maavu",
+            "label": "Organic Sathu Maavu & Health Mixes",
+            "sortOrder": 4,
+            "createdAt": 1792152261358
+        },
+        {
+            "id": "vismaya",
+            "label": "vismaya",
+            "sortOrder": 5,
+            "createdAt": 1792774573202
+        }
+    ]
+}

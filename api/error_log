@@ -1,0 +1,173 @@
+[16-Oct-2026 06:44:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/yghingcom/public_html/api/index.php:57
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(221): getJsonBody()
+#1 {main}
+  thrown in /home/yghingcom/public_html/api/index.php on line 57
+[16-Oct-2026 06:45:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/yghingcom/public_html/api/index.php:57
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(221): getJsonBody()
+#1 {main}
+  thrown in /home/yghingcom/public_html/api/index.php on line 57
+[16-Oct-2026 06:45:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_encode() in /home/yghingcom/public_html/api/index.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/yghingcom/public_html/api/index.php on line 71
+[16-Oct-2026 06:48:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/yghingcom/public_html/api/index.php:42
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(160): loadData('/home/yghingcom...')
+#1 {main}
+  thrown in /home/yghingcom/public_html/api/index.php on line 42
+[16-Oct-2026 06:49:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function json_encode() in /home/yghingcom/public_html/api/index.php:303
+Stack trace:
+#0 {main}
+  thrown in /home/yghingcom/public_html/api/index.php on line 303
+[16-Oct-2026 11:53:25 UTC] [YG MySQL Bridge Error]: SQLSTATE[28000] [1045] Access denied for user 'yghingcom_yghingcom'@'localhost' (using password: YES)
+[16-Oct-2026 11:53:56 UTC] [YG MySQL Bridge Error]: SQLSTATE[28000] [1045] Access denied for user 'yghingcom_dbuser'@'localhost' (using password: YES)
+[16-Oct-2026 11:54:17 UTC] [YG MySQL Bridge Error]: SQLSTATE[28000] [1045] Access denied for user 'yghingcom_yghing'@'localhost' (using password: YES)
+[16-Oct-2026 11:54:46 UTC] [YG MySQL Bridge Error]: SQLSTATE[28000] [1045] Access denied for user 'yghingcom'@'localhost' (using password: YES)
+[16-Oct-2026 11:55:03 UTC] [YG MySQL Schema Auto-Init Notice]: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'reference_no' cannot be null
+[16-Oct-2026 12:01:41 UTC] PHP Parse error:  Unclosed '{' on line 197 in /home/yghingcom/public_html/api/index.php on line 1323
+[16-Oct-2026 12:01:53 UTC] PHP Parse error:  Unclosed '{' on line 197 in /home/yghingcom/public_html/api/index.php on line 1323
+[16-Oct-2026 12:02:09 UTC] PHP Parse error:  Unclosed '{' on line 197 in /home/yghingcom/public_html/api/index.php on line 1323
+[16-Oct-2026 12:06:06 UTC] PHP Warning:  Undefined array key "country" in /home/yghingcom/public_html/api/index.php on line 861
+[16-Oct-2026 12:06:06 UTC] PHP Warning:  Undefined array key "volume" in /home/yghingcom/public_html/api/index.php on line 862
+[16-Oct-2026 12:06:06 UTC] PHP Warning:  Undefined array key "country" in /home/yghingcom/public_html/api/index.php on line 861
+[16-Oct-2026 12:06:06 UTC] PHP Warning:  Undefined array key "volume" in /home/yghingcom/public_html/api/index.php on line 862
+[19-Oct-2026 22:58:12 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 00:34:15 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 02:00:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 03:17:21 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 05:47:40 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 06:49:00 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 08:20:10 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 08:57:26 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 11:23:34 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 11:29:05 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 13:41:59 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 14:56:53 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 15:44:06 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 16:33:23 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 18:36:57 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 19:02:28 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 19:18:11 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 22:27:41 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[20-Oct-2026 23:03:04 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[21-Oct-2026 00:41:09 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[21-Oct-2026 01:40:05 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[21-Oct-2026 03:42:57 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
+[21-Oct-2026 04:09:25 UTC] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/yghingcom/public_html/data/db_config.php:12
+Stack trace:
+#0 /home/yghingcom/public_html/api/index.php(59): include()
+#1 /home/yghingcom/public_html/api/index.php(120): getDbConfig('/home/yghingcom...')
+#2 {main}
+  thrown in /home/yghingcom/public_html/data/db_config.php on line 12
